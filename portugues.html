@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Português - Jogos da Beni</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container menu-container">
+        <div class="stars">⭐✨⭐✨⭐</div>
+        <header>
+            <h1 class="title">📖 Português 📖</h1>
+            <p class="subtitle">🎨 Escolhe o teu jogo favorito e diverte-te! 🎨</p>
+        </header>
+
+        <div class="games-grid">
+            <div class="game-card" data-game="nomes">
+                <div class="card-decoration">✨</div>
+                <div class="game-icon">📚</div>
+                <h2>📖 Nomes Próprios e Coletivos</h2>
+                <p class="game-description">Aprende sobre nomes próprios e nomes comuns coletivos de forma divertida! 🎯</p>
+                <button class="btn btn-play">🎮 Começar a Jogar!</button>
+            </div>
+
+            <div class="game-card" data-game="conectores">
+                <div class="card-decoration">✨</div>
+                <div class="game-icon">🔗</div>
+                <h2>🔗 Conectores de Português</h2>
+                <p class="game-description">Completa frases com os conectores de discurso corretos! É super fácil! 😊</p>
+                <button class="btn btn-play">🎮 Começar a Jogar!</button>
+            </div>
+
+            <div class="game-card" data-game="tipos-frases">
+                <div class="card-decoration">✨</div>
+                <div class="game-icon">💬</div>
+                <h2>💬 Tipos de Frases</h2>
+                <p class="game-description">Aprende a identificar frases exclamativas, interrogativas, declarativas e imperativas! 🎯</p>
+                <button class="btn btn-play">🎮 Começar a Jogar!</button>
+            </div>
+        </div>
+
+        <div class="ranking-section">
+            <h3>🏆 Troféus e Pontuações 🏆</h3>
+            <p class="ranking-subtitle">Vê as tuas melhores pontuações!</p>
+            <div class="ranking-buttons">
+                <button class="btn btn-ranking-small" data-game="nomes">🥇 Ranking - Nomes</button>
+                <button class="btn btn-ranking-small" data-game="conectores">🥇 Ranking - Conectores</button>
+                <button class="btn btn-ranking-small" data-game="tipos-frases">🥇 Ranking - Tipos de Frases</button>
+            </div>
+        </div>
+        
+        <div class="back-button">
+            <button class="btn btn-back" onclick="window.location.href='index.html'">← Voltar às Disciplinas</button>
+        </div>
+    </div>
+
+    <!-- Ranking Modal -->
+    <div class="ranking-modal" id="ranking-modal">
+        <div class="ranking-content">
+            <h2 id="ranking-title">🏆 Ranking 🏆</h2>
+            <div class="ranking-list" id="ranking-list"></div>
+            <button class="btn btn-close" id="close-ranking-btn">Fechar</button>
+        </div>
+    </div>
+
+    <script src="menu.js"></script>
+</body>
+</html>
+

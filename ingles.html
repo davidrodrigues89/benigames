@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English - Beni's Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container menu-container">
+        <div class="stars">⭐✨⭐✨⭐</div>
+        <header>
+            <h1 class="title">🌍 English 🌍</h1>
+            <p class="subtitle">🎨 Choose your favorite game and have fun! 🎨</p>
+        </header>
+
+        <div class="games-grid">
+            <div class="game-card" data-game="present-continuous">
+                <div class="card-decoration">✨</div>
+                <div class="game-icon">⏳</div>
+                <h2>⏳ Present Continuous</h2>
+                <p class="game-description">Learn the Present Continuous in English!</p>
+                <button class="btn btn-play">🎮 Start Playing!</button>
+            </div>
+
+            <div class="game-card" data-game="present-simple">
+                <div class="card-decoration">✨</div>
+                <div class="game-icon">📝</div>
+                <h2>📝 Present Simple</h2>
+                <p class="game-description">Learn the Present Simple in English!</p>
+                <button class="btn btn-play">🎮 Start Playing!</button>
+            </div>
+
+            <div class="game-card" data-game="present-simple-to-be">
+                <div class="card-decoration">✨</div>
+                <div class="game-icon">👤</div>
+                <h2>👤 Present Simple - To Be</h2>
+                <p class="game-description">Learn the verb 'to be' in English!</p>
+                <button class="btn btn-play">🎮 Start Playing!</button>
+            </div>
+
+            <div class="game-card" data-game="present-simple-have-got">
+                <div class="card-decoration">✨</div>
+                <div class="game-icon">🎁</div>
+                <h2>🎁 Present Simple - Have Got</h2>
+                <p class="game-description">Learn 'have got' in English!</p>
+                <button class="btn btn-play">🎮 Start Playing!</button>
+            </div>
+
+            <div class="game-card" data-game="adverbs">
+                <div class="card-decoration">✨</div>
+                <div class="game-icon">📚</div>
+                <h2>📚 Adverbs</h2>
+                <p class="game-description">Learn about adverbs in English!</p>
+                <button class="btn btn-play">🎮 Start Playing!</button>
+            </div>
+        </div>
+
+        <div class="ranking-section">
+            <h3>🏆 Trophies and Scores 🏆</h3>
+            <p class="ranking-subtitle">View your best scores!</p>
+            <div class="ranking-buttons">
+                <button class="btn btn-ranking-small" data-game="present-continuous">🥇 Ranking - Present Continuous</button>
+                <button class="btn btn-ranking-small" data-game="present-simple">🥇 Ranking - Present Simple</button>
+                <button class="btn btn-ranking-small" data-game="present-simple-to-be">🥇 Ranking - To Be</button>
+                <button class="btn btn-ranking-small" data-game="present-simple-have-got">🥇 Ranking - Have Got</button>
+                <button class="btn btn-ranking-small" data-game="adverbs">🥇 Ranking - Adverbs</button>
+            </div>
+        </div>
+        
+        <div class="back-button">
+            <button class="btn btn-back" onclick="window.location.href='index.html'">← Back to Subjects</button>
+        </div>
+    </div>
+
+    <!-- Ranking Modal -->
+    <div class="ranking-modal" id="ranking-modal">
+        <div class="ranking-content">
+            <h2 id="ranking-title">🏆 Ranking 🏆</h2>
+            <div class="ranking-list" id="ranking-list"></div>
+            <button class="btn btn-close" id="close-ranking-btn">Close</button>
+        </div>
+    </div>
+
+    <script src="menu-ingles.js"></script>
+</body>
+</html>
