@@ -374,6 +374,62 @@ function initGame() {
     restartBtn.style.display = 'none';
     feedback.textContent = '';
     feedback.className = 'feedback';
+    
+    // Remover classe has-restart quando reinicia o jogo
+    const backButton = document.querySelector('.back-button');
+    if (backButton) {
+        backButton.classList.remove('has-restart');
+    }
+    
+    // Setup back button confirmation
+    setupBackButton();
+}
+
+function setupBackButton() {
+    const backBtn = document.getElementById('back-btn');
+    const confirmModal = document.getElementById('confirm-modal');
+    const confirmYes = document.getElementById('confirm-yes');
+    const confirmNo = document.getElementById('confirm-no');
+    const confirmTitle = document.getElementById('confirm-title');
+    const confirmMessage = document.getElementById('confirm-message');
+    
+    // Detect language from HTML lang attribute
+    const isPortuguese = document.documentElement.lang === 'pt-PT' || document.documentElement.lang === 'pt';
+    
+    if (isPortuguese) {
+        confirmTitle.textContent = '⚠️ Sair do Exercício?';
+        confirmMessage.textContent = 'Tens a certeza que queres voltar? O teu progresso será perdido.';
+        confirmYes.textContent = 'Sim, Voltar';
+        confirmNo.textContent = 'Não, Continuar';
+    } else {
+        confirmTitle.textContent = '⚠️ Leave Exercise?';
+        confirmMessage.textContent = 'Are you sure you want to go back? Your progress will be lost.';
+        confirmYes.textContent = 'Yes, Go Back';
+        confirmNo.textContent = 'No, Continue';
+    }
+    
+    if (backBtn && confirmModal) {
+        backBtn.addEventListener('click', () => {
+            confirmModal.style.display = 'flex';
+        });
+        
+        confirmYes.addEventListener('click', () => {
+            const href = backBtn.getAttribute('data-href');
+            if (href) {
+                window.location.href = href;
+            }
+        });
+        
+        confirmNo.addEventListener('click', () => {
+            confirmModal.style.display = 'none';
+        });
+        
+        confirmModal.addEventListener('click', (e) => {
+            if (e.target === confirmModal) {
+                confirmModal.style.display = 'none';
+            }
+        });
+    }
 }
 
 function updateScore() {
@@ -495,6 +551,12 @@ function endGame() {
     
     nextBtn.style.display = 'none';
     restartBtn.style.display = 'inline-block';
+    
+    // Adicionar classe para alinhar botões lado a lado quando restart-btn está visível
+    const backButton = document.querySelector('.back-button');
+    if (backButton) {
+        backButton.classList.add('has-restart');
+    }
 }
 
 nextBtn.addEventListener('click', nextQuestion);

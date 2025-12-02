@@ -44,7 +44,7 @@
             </div>
             
             <div class="back-button">
-                <button class="btn btn-back" onclick="window.location.href='ingles.html'">← Back to Menu</button>
+                <button class="btn btn-back" id="back-btn" data-href="ingles.html">← Back to Menu</button>
             </div>
         </div>
     </div>
@@ -55,6 +55,18 @@
             <h2 id="ranking-title">🏆 Ranking 🏆</h2>
             <div class="ranking-list" id="ranking-list"></div>
             <button class="btn btn-close" id="close-ranking-btn">Close</button>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div class="confirm-modal" id="confirm-modal">
+        <div class="confirm-content">
+            <h2 id="confirm-title">⚠️ Leave Exercise?</h2>
+            <p id="confirm-message">Are you sure you want to go back? Your progress will be lost.</p>
+            <div class="confirm-buttons">
+                <button class="btn btn-primary" id="confirm-yes">Yes, Go Back</button>
+                <button class="btn btn-restart" id="confirm-no">No, Continue</button>
+            </div>
         </div>
     </div>
 

@@ -43,7 +43,19 @@
         </div>
         
         <div class="back-button">
-            <button class="btn btn-back" onclick="window.location.href='portugues.html'">← Voltar ao Menu</button>
+            <button class="btn btn-back" id="back-btn" data-href="portugues.html">← Voltar ao Menu</button>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div class="confirm-modal" id="confirm-modal">
+        <div class="confirm-content">
+            <h2 id="confirm-title">⚠️ Sair do Exercício?</h2>
+            <p id="confirm-message">Tens a certeza que queres voltar? O teu progresso será perdido.</p>
+            <div class="confirm-buttons">
+                <button class="btn btn-primary" id="confirm-yes">Sim, Voltar</button>
+                <button class="btn btn-restart" id="confirm-no">Não, Continuar</button>
+            </div>
         </div>
     </div>
 

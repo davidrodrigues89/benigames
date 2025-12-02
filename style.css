@@ -326,9 +326,23 @@ header {
     margin: 0;
 }
 
+/* Quando back-button tem classe has-restart (restart-btn visível) - lado a lado 50% cada */
+.controls-wrapper .back-button.has-restart {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    margin: 0;
+}
+
+.controls-wrapper .back-button.has-restart .btn-back {
+    flex: 1;
+    max-width: none;
+    margin: 0;
+}
+
 /* Quando controls está vazio ou oculto, back-button ocupa 100% */
 .controls-wrapper .controls:empty + .back-button,
-.controls-wrapper .back-button:not(.has-next) {
+.controls-wrapper .back-button:not(.has-next):not(.has-restart) {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -337,7 +351,7 @@ header {
 }
 
 .controls-wrapper .controls:empty + .back-button .btn-back,
-.controls-wrapper .back-button:not(.has-next) .btn-back {
+.controls-wrapper .back-button:not(.has-next):not(.has-restart) .btn-back {
     width: 100%;
     max-width: none;
     margin: 0;
@@ -464,6 +478,69 @@ header {
     pointer-events: auto;
     visibility: visible;
     opacity: 1;
+}
+
+/* Confirmation Modal */
+.confirm-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 10001;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease;
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.confirm-modal[style*="display: flex"],
+.confirm-modal[style*="display:flex"] {
+    display: flex !important;
+    pointer-events: auto;
+    visibility: visible;
+    opacity: 1;
+}
+
+.confirm-content {
+    background: white;
+    border-radius: 30px;
+    padding: 40px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    animation: slideIn 0.3s ease-out;
+    text-align: center;
+}
+
+.confirm-content h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #667eea;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.confirm-content p {
+    font-size: 1.2em;
+    color: #4a5568;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.confirm-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.confirm-buttons .btn {
+    flex: 1;
+    max-width: 200px;
 }
 
 .ranking-content {
