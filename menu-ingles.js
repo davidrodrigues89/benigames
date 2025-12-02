@@ -52,6 +52,10 @@ function startGame(game) {
         window.location.href = 'adverbs.html';
     } else if (game === 'numbers') {
         window.location.href = 'numbers.html';
+    } else if (game === 'rooms') {
+        window.location.href = 'rooms.html';
+    } else if (game === 'daily-routines') {
+        window.location.href = 'daily-routines.html';
     }
 }
 
@@ -77,6 +81,12 @@ function showRanking(game) {
     } else if (game === 'numbers') {
         gameName = 'Numbers 1-100';
         rankingKey = 'numbersRanking';
+    } else if (game === 'rooms') {
+        gameName = 'The House';
+        rankingKey = 'roomsRanking';
+    } else if (game === 'daily-routines') {
+        gameName = 'Daily Routines';
+        rankingKey = 'dailyRoutinesRanking';
     }
     
     rankingTitle.textContent = `🏆 Ranking - ${gameName} 🏆`;

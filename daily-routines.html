@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Routines - Learn English!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">⏰ Daily Routines ⏰</h1>
+            <p class="subtitle" id="player-greeting">Learn about daily routines in English!</p>
+        </header>
+
+        <div class="score-board">
+            <div class="score-item">
+                <span class="score-label">Score:</span>
+                <span class="score-value" id="score">0</span>
+            </div>
+            <div class="score-item">
+                <span class="score-label">Question:</span>
+                <span class="score-value"><span id="question-number">1</span> / <span id="total-questions">25</span></span>
+            </div>
+        </div>
+
+        <div class="game-area">
+            <div class="question-card" id="question-card">
+                <h2 class="question-text" id="question-text"></h2>
+                <div class="question-type" id="question-type"></div>
+            </div>
+
+            <div class="answers-grid" id="answers-container">
+                <!-- Answers will be dynamically generated -->
+            </div>
+
+            <div class="feedback" id="feedback"></div>
+        </div>
+
+        <div class="controls-wrapper">
+            <div class="controls">
+                <button class="btn btn-primary" id="next-btn" style="display: none;">Next Question</button>
+                <button class="btn btn-restart" id="restart-btn" style="display: none;">Play Again</button>
+            </div>
+            
+            <div class="back-button">
+                <button class="btn btn-back" id="back-btn" data-href="ingles.html">← Back to Menu</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ranking Modal -->
+    <div class="ranking-modal" id="ranking-modal">
+        <div class="ranking-content">
+            <h2 id="ranking-title">🏆 Ranking 🏆</h2>
+            <div class="ranking-list" id="ranking-list"></div>
+            <button class="btn btn-close" id="close-ranking-btn">Close</button>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div class="confirm-modal" id="confirm-modal">
+        <div class="confirm-content">
+            <h2 id="confirm-title">⚠️ Leave Exercise?</h2>
+            <p id="confirm-message">Are you sure you want to go back? Your progress will be lost.</p>
+            <div class="confirm-buttons">
+                <button class="btn btn-primary" id="confirm-yes">Yes, Go Back</button>
+                <button class="btn btn-restart" id="confirm-no">No, Continue</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="daily-routines.js"></script>
+</body>
+</html>
+

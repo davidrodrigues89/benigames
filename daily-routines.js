@@ -1,253 +1,253 @@
-// Perguntas sobre Adverbs de Frequência em Inglês
+// Perguntas sobre Daily Routines (Rotinas Diárias) em Inglês Britânico
 const questions = [
     {
-        question: "I _____ brush my teeth. Every single day, never forget!",
-        type: "Adverbs",
+        question: "I _____ at seven o'clock every morning.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: true },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "wake up", correct: true },
+            { label: "B", text: "go to bed" },
+            { label: "C", text: "have dinner" },
+            { label: "D", text: "do homework" }
         ]
     },
     {
-        question: "She _____ plays with toys. Only when she feels like it.",
-        type: "Adverbs",
+        question: "After waking up, I _____.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "go to bed" },
+            { label: "B", text: "have a shower", correct: true },
+            { label: "C", text: "have dinner" },
+            { label: "D", text: "catch the bus" }
         ]
     },
     {
-        question: "He _____ eats candy. His mum never lets him.",
-        type: "Adverbs",
+        question: "Then I _____ and go to school.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: true },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "go to bed" },
+            { label: "B", text: "get dressed", correct: true },
+            { label: "C", text: "have dinner" },
+            { label: "D", text: "do homework" }
         ]
     },
     {
-        question: "We _____ eat breakfast. Almost every day, but not always.",
-        type: "Adverbs",
+        question: "I _____ to go to school.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: true }
+            { label: "A", text: "wake up" },
+            { label: "B", text: "get dressed" },
+            { label: "C", text: "catch the bus", correct: true },
+            { label: "D", text: "go to bed" }
         ]
     },
     {
-        question: "I go to school _____. Monday, Tuesday, Wednesday, Thursday, Friday.",
-        type: "Adverbs",
+        question: "After school, I _____.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: true }
+            { label: "A", text: "wake up" },
+            { label: "B", text: "do homework", correct: true },
+            { label: "C", text: "go to bed" },
+            { label: "D", text: "have a shower" }
         ]
     },
     {
-        question: "They _____ play games. Not every day, just now and then.",
-        type: "Adverbs",
+        question: "In the evening, I _____ with my family.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "A", text: "wake up" },
+            { label: "B", text: "get dressed" },
+            { label: "C", text: "have dinner", correct: true },
+            { label: "D", text: "catch the bus" }
         ]
     },
     {
-        question: "She _____ forgets her bag. She always remembers it!",
-        type: "Adverbs",
+        question: "Before bed, I _____.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: true },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "wake up" },
+            { label: "B", text: "brush my teeth", correct: true },
+            { label: "C", text: "catch the bus" },
+            { label: "D", text: "do homework" }
         ]
     },
     {
-        question: "I _____ wake up early. Most mornings, but sometimes I sleep late.",
-        type: "Adverbs",
+        question: "Then I _____ at nine o'clock.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: true }
+            { label: "A", text: "wake up" },
+            { label: "B", text: "get dressed" },
+            { label: "C", text: "go to bed", correct: true },
+            { label: "D", text: "have a shower" }
         ]
     },
     {
-        question: "We eat lunch _____. Every single day at noon.",
-        type: "Adverbs",
+        question: "I _____ breakfast at eight o'clock.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: true }
+            { label: "A", text: "have", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "do" },
+            { label: "D", text: "get" }
         ]
     },
     {
-        question: "He _____ helps at home. Without fail, every single time!",
-        type: "Adverbs",
+        question: "I _____ dinner with my family.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: true },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "have", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "do" },
+            { label: "D", text: "get" }
         ]
     },
     {
-        question: "I _____ watch cartoons. Only on weekends, not every day.",
-        type: "Adverbs",
+        question: "I _____ my room on Saturdays.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "A", text: "tidy", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "have" },
+            { label: "D", text: "get" }
         ]
     },
     {
-        question: "She _____ goes to bed late. She always sleeps at 8 PM!",
-        type: "Adverbs",
+        question: "I _____ TV after dinner.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: true },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "watch", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "do" },
+            { label: "D", text: "get" }
         ]
     },
     {
-        question: "We _____ do homework. Almost every day, but we skip it sometimes.",
-        type: "Adverbs",
+        question: "I _____ my teeth before bed.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: true }
+            { label: "A", text: "brush", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "have" },
+            { label: "D", text: "get" }
         ]
     },
     {
-        question: "I drink milk _____. Every morning and every night.",
-        type: "Adverbs",
+        question: "I _____ up early on school days.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: true }
+            { label: "A", text: "wake", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "have" },
+            { label: "D", text: "do" }
         ]
     },
     {
-        question: "They _____ visit friends. Only once in a while, not often.",
-        type: "Adverbs",
+        question: "I _____ dressed before breakfast.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "A", text: "get", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "have" },
+            { label: "D", text: "do" }
         ]
     },
     {
-        question: "He _____ says hello. Every time he sees someone, without exception!",
-        type: "Adverbs",
+        question: "I _____ the bus to school.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: true },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "catch", correct: true },
+            { label: "B", text: "get" },
+            { label: "C", text: "have" },
+            { label: "D", text: "do" }
         ]
     },
     {
-        question: "I _____ eat fruit. Not every day, just when I feel like it.",
-        type: "Adverbs",
+        question: "I _____ my homework after school.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "A", text: "do", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "have" },
+            { label: "D", text: "get" }
         ]
     },
     {
-        question: "She _____ reads books. Most nights before bed, but not always.",
-        type: "Adverbs",
+        question: "I _____ to bed at nine o'clock.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: true }
+            { label: "A", text: "go", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "have" },
+            { label: "D", text: "get" }
         ]
     },
     {
-        question: "We play outside _____. Every single day after school.",
-        type: "Adverbs",
+        question: "I _____ a shower every morning.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: true }
+            { label: "A", text: "have", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "do" },
+            { label: "D", text: "get" }
         ]
     },
     {
-        question: "I _____ clean my room. Only when my mum asks me to.",
-        type: "Adverbs",
+        question: "I _____ lunch with my friends.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "have", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "do" },
+            { label: "D", text: "get" }
         ]
     },
     {
-        question: "He _____ comes to school. Every single day, never misses!",
-        type: "Adverbs",
+        question: "I _____ my hair in the morning.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: true },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "A", text: "brush", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "have" },
+            { label: "D", text: "get" }
         ]
     },
     {
-        question: "She _____ goes swimming. She is afraid of water!",
-        type: "Adverbs",
+        question: "I _____ my bed every morning.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: true },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "make", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "have" },
+            { label: "D", text: "get" }
         ]
     },
     {
-        question: "I _____ have a snack. Most afternoons, but not every day.",
-        type: "Adverbs",
+        question: "I _____ to music before bed.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: true }
+            { label: "A", text: "listen", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "have" },
+            { label: "D", text: "get" }
         ]
     },
     {
-        question: "We play games _____. Every day after homework.",
-        type: "Adverbs",
+        question: "I _____ ready for school.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: true }
+            { label: "A", text: "get", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "have" },
+            { label: "D", text: "do" }
         ]
     },
     {
-        question: "They _____ listen to songs. Not every day, just occasionally.",
-        type: "Adverbs",
+        question: "I _____ dressed after my shower.",
+        type: "Daily Routines",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "A", text: "get", correct: true },
+            { label: "B", text: "catch" },
+            { label: "C", text: "have" },
+            { label: "D", text: "do" }
         ]
     }
 ];
@@ -258,7 +258,7 @@ let answered = false;
 
 let PLAYER_NAME = localStorage.getItem('playerName') || 'Beni';
 const QUESTIONS_PER_GAME = 25;
-const RANKING_KEY = 'adverbsRanking';
+const RANKING_KEY = 'dailyRoutinesRanking';
 
 const questionText = document.getElementById('question-text');
 const questionType = document.getElementById('question-type');
@@ -315,7 +315,7 @@ function displayRanking() {
     const rankingModal = document.getElementById('ranking-modal');
     const closeRankingBtn = document.getElementById('close-ranking-btn');
     
-    rankingTitle.textContent = `🏆 Ranking - Adverbs 🏆`;
+    rankingTitle.textContent = `🏆 Ranking - Daily Routines 🏆`;
     
     if (ranking.length === 0) {
         rankingList.innerHTML = '<p class="no-ranking">No scores yet! Play to appear on the ranking! 🎮</p>';
@@ -360,7 +360,7 @@ function initGame() {
     PLAYER_NAME = localStorage.getItem('playerName') || 'Beni';
     const playerGreeting = document.getElementById('player-greeting');
     if (playerGreeting) {
-        playerGreeting.textContent = `Hello ${PLAYER_NAME}! Learn about adverbs in English!`;
+        playerGreeting.textContent = `Hello ${PLAYER_NAME}! Learn about daily routines!`;
     }
     
     currentQuestionIndex = 0;
@@ -453,7 +453,6 @@ function loadQuestion() {
     feedback.textContent = '';
     feedback.className = 'feedback';
     nextBtn.style.display = 'none';
-    // Remover classe quando next-btn está oculto
     const backButton = document.querySelector('.back-button');
     if (backButton) {
         backButton.classList.remove('has-next');
@@ -509,7 +508,6 @@ function selectAnswer(answer, button) {
 
     if (currentQuestionIndex < shuffledQuestions.length - 1) {
         nextBtn.style.display = 'inline-block';
-        // Adicionar classe para alinhar botões lado a lado
         const backButton = document.querySelector('.back-button');
         if (backButton) {
             backButton.classList.add('has-next');

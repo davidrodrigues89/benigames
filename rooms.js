@@ -1,253 +1,253 @@
-// Perguntas sobre Adverbs de Frequência em Inglês
+// Perguntas sobre The House (Divisões da Casa) em Inglês Britânico
 const questions = [
     {
-        question: "I _____ brush my teeth. Every single day, never forget!",
-        type: "Adverbs",
+        question: "I sleep in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: true },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "bedroom", correct: true },
+            { label: "B", text: "kitchen" },
+            { label: "C", text: "bathroom" },
+            { label: "D", text: "garden" }
         ]
     },
     {
-        question: "She _____ plays with toys. Only when she feels like it.",
-        type: "Adverbs",
+        question: "We watch TV in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "living room", correct: true },
+            { label: "C", text: "bathroom" },
+            { label: "D", text: "garage" }
         ]
     },
     {
-        question: "He _____ eats candy. His mum never lets him.",
-        type: "Adverbs",
+        question: "Mum cooks dinner in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: true },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "kitchen", correct: true },
+            { label: "C", text: "bathroom" },
+            { label: "D", text: "garden" }
         ]
     },
     {
-        question: "We _____ eat breakfast. Almost every day, but not always.",
-        type: "Adverbs",
+        question: "I brush my teeth in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: true }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "kitchen" },
+            { label: "C", text: "bathroom", correct: true },
+            { label: "D", text: "living room" }
         ]
     },
     {
-        question: "I go to school _____. Monday, Tuesday, Wednesday, Thursday, Friday.",
-        type: "Adverbs",
+        question: "We play football in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: true }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "kitchen" },
+            { label: "C", text: "bathroom" },
+            { label: "D", text: "garden", correct: true }
         ]
     },
     {
-        question: "They _____ play games. Not every day, just now and then.",
-        type: "Adverbs",
+        question: "The car is in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "kitchen" },
+            { label: "C", text: "garage", correct: true },
+            { label: "D", text: "bathroom" }
         ]
     },
     {
-        question: "She _____ forgets her bag. She always remembers it!",
-        type: "Adverbs",
+        question: "I do my homework in my _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: true },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "bedroom", correct: true },
+            { label: "B", text: "kitchen" },
+            { label: "C", text: "bathroom" },
+            { label: "D", text: "garage" }
         ]
     },
     {
-        question: "I _____ wake up early. Most mornings, but sometimes I sleep late.",
-        type: "Adverbs",
+        question: "We eat breakfast in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: true }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "kitchen", correct: true },
+            { label: "C", text: "bathroom" },
+            { label: "D", text: "garden" }
         ]
     },
     {
-        question: "We eat lunch _____. Every single day at noon.",
-        type: "Adverbs",
+        question: "I have a shower in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: true }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "kitchen" },
+            { label: "C", text: "bathroom", correct: true },
+            { label: "D", text: "living room" }
         ]
     },
     {
-        question: "He _____ helps at home. Without fail, every single time!",
-        type: "Adverbs",
+        question: "We sit on the sofa in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: true },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "living room", correct: true },
+            { label: "C", text: "kitchen" },
+            { label: "D", text: "bathroom" }
         ]
     },
     {
-        question: "I _____ watch cartoons. Only on weekends, not every day.",
-        type: "Adverbs",
+        question: "I live in a _____ in London.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "A", text: "flat", correct: true },
+            { label: "B", text: "garden" },
+            { label: "C", text: "garage" },
+            { label: "D", text: "bedroom" }
         ]
     },
     {
-        question: "She _____ goes to bed late. She always sleeps at 8 PM!",
-        type: "Adverbs",
+        question: "We can see the city from the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: true },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "kitchen" },
+            { label: "C", text: "balcony", correct: true },
+            { label: "D", text: "bathroom" }
         ]
     },
     {
-        question: "We _____ do homework. Almost every day, but we skip it sometimes.",
-        type: "Adverbs",
+        question: "The books are in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: true }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "study", correct: true },
+            { label: "C", text: "kitchen" },
+            { label: "D", text: "bathroom" }
         ]
     },
     {
-        question: "I drink milk _____. Every morning and every night.",
-        type: "Adverbs",
+        question: "We keep food in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: true }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "kitchen", correct: true },
+            { label: "C", text: "bathroom" },
+            { label: "D", text: "garden" }
         ]
     },
     {
-        question: "They _____ visit friends. Only once in a while, not often.",
-        type: "Adverbs",
+        question: "I read a book in my _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "A", text: "bedroom", correct: true },
+            { label: "B", text: "kitchen" },
+            { label: "C", text: "garage" },
+            { label: "D", text: "garden" }
         ]
     },
     {
-        question: "He _____ says hello. Every time he sees someone, without exception!",
-        type: "Adverbs",
+        question: "We have dinner in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: true },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "kitchen", correct: true },
+            { label: "C", text: "bathroom" },
+            { label: "D", text: "garage" }
         ]
     },
     {
-        question: "I _____ eat fruit. Not every day, just when I feel like it.",
-        type: "Adverbs",
+        question: "The flowers are in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "kitchen" },
+            { label: "C", text: "bathroom" },
+            { label: "D", text: "garden", correct: true }
         ]
     },
     {
-        question: "She _____ reads books. Most nights before bed, but not always.",
-        type: "Adverbs",
+        question: "I wash my hands in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: true }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "kitchen" },
+            { label: "C", text: "bathroom", correct: true },
+            { label: "D", text: "living room" }
         ]
     },
     {
-        question: "We play outside _____. Every single day after school.",
-        type: "Adverbs",
+        question: "We relax and chat in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: true }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "living room", correct: true },
+            { label: "C", text: "kitchen" },
+            { label: "D", text: "garage" }
         ]
     },
     {
-        question: "I _____ clean my room. Only when my mum asks me to.",
-        type: "Adverbs",
+        question: "My bike is in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "kitchen" },
+            { label: "C", text: "garage", correct: true },
+            { label: "D", text: "bathroom" }
         ]
     },
     {
-        question: "He _____ comes to school. Every single day, never misses!",
-        type: "Adverbs",
+        question: "My toys are in my _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: true },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "A", text: "bedroom", correct: true },
+            { label: "B", text: "kitchen" },
+            { label: "C", text: "garage" },
+            { label: "D", text: "garden" }
         ]
     },
     {
-        question: "She _____ goes swimming. She is afraid of water!",
-        type: "Adverbs",
+        question: "We grow vegetables in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: true },
-            { label: "D", text: "usually", correct: false }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "kitchen" },
+            { label: "C", text: "bathroom" },
+            { label: "D", text: "garden", correct: true }
         ]
     },
     {
-        question: "I _____ have a snack. Most afternoons, but not every day.",
-        type: "Adverbs",
+        question: "My family lives in a _____ in Birmingham.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: true }
+            { label: "A", text: "flat", correct: true },
+            { label: "B", text: "garden" },
+            { label: "C", text: "bedroom" },
+            { label: "D", text: "garage" }
         ]
     },
     {
-        question: "We play games _____. Every day after homework.",
-        type: "Adverbs",
+        question: "We enjoy the view from the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: true }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "kitchen" },
+            { label: "C", text: "balcony", correct: true },
+            { label: "D", text: "bathroom" }
         ]
     },
     {
-        question: "They _____ listen to songs. Not every day, just occasionally.",
-        type: "Adverbs",
+        question: "Dad works in the _____.",
+        type: "The House",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "A", text: "bedroom" },
+            { label: "B", text: "study", correct: true },
+            { label: "C", text: "kitchen" },
+            { label: "D", text: "bathroom" }
         ]
     }
 ];
@@ -258,7 +258,7 @@ let answered = false;
 
 let PLAYER_NAME = localStorage.getItem('playerName') || 'Beni';
 const QUESTIONS_PER_GAME = 25;
-const RANKING_KEY = 'adverbsRanking';
+const RANKING_KEY = 'roomsRanking';
 
 const questionText = document.getElementById('question-text');
 const questionType = document.getElementById('question-type');
@@ -315,7 +315,7 @@ function displayRanking() {
     const rankingModal = document.getElementById('ranking-modal');
     const closeRankingBtn = document.getElementById('close-ranking-btn');
     
-    rankingTitle.textContent = `🏆 Ranking - Adverbs 🏆`;
+    rankingTitle.textContent = `🏆 Ranking - The House 🏆`;
     
     if (ranking.length === 0) {
         rankingList.innerHTML = '<p class="no-ranking">No scores yet! Play to appear on the ranking! 🎮</p>';
@@ -360,7 +360,7 @@ function initGame() {
     PLAYER_NAME = localStorage.getItem('playerName') || 'Beni';
     const playerGreeting = document.getElementById('player-greeting');
     if (playerGreeting) {
-        playerGreeting.textContent = `Hello ${PLAYER_NAME}! Learn about adverbs in English!`;
+        playerGreeting.textContent = `Hello ${PLAYER_NAME}! Learn about rooms of the house!`;
     }
     
     currentQuestionIndex = 0;
@@ -453,7 +453,6 @@ function loadQuestion() {
     feedback.textContent = '';
     feedback.className = 'feedback';
     nextBtn.style.display = 'none';
-    // Remover classe quando next-btn está oculto
     const backButton = document.querySelector('.back-button');
     if (backButton) {
         backButton.classList.remove('has-next');
@@ -509,7 +508,6 @@ function selectAnswer(answer, button) {
 
     if (currentQuestionIndex < shuffledQuestions.length - 1) {
         nextBtn.style.display = 'inline-block';
-        // Adicionar classe para alinhar botões lado a lado
         const backButton = document.querySelector('.back-button');
         if (backButton) {
             backButton.classList.add('has-next');

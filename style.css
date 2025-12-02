@@ -796,7 +796,9 @@ body.ingles-page .game-card,
 .game-card[data-game="present-simple"],
 .game-card[data-game="present-simple-to-be"],
 .game-card[data-game="present-simple-have-got"],
-.game-card[data-game="adverbs"] {
+.game-card[data-game="adverbs"],
+.game-card[data-game="rooms"],
+.game-card[data-game="daily-routines"] {
     background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
 }
 
@@ -880,8 +882,10 @@ body.ingles-page .game-card,
 .game-card[data-game="present-simple-to-be"] .btn-play,
 .game-card[data-game="present-simple-have-got"] .btn-play,
 .game-card[data-game="adverbs"] .btn-play,
-.game-card[data-game="numbers"] .btn-play {
-    background: linear-gradient(135deg, #d073db 0%, #d5374c 100%);
+.game-card[data-game="numbers"] .btn-play,
+.game-card[data-game="rooms"] .btn-play,
+.game-card[data-game="daily-routines"] .btn-play {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 .game-card[data-game="present-continuous"] .btn-play:hover,
@@ -889,7 +893,9 @@ body.ingles-page .game-card,
 .game-card[data-game="present-simple-to-be"] .btn-play:hover,
 .game-card[data-game="present-simple-have-got"] .btn-play:hover,
 .game-card[data-game="adverbs"] .btn-play:hover,
-.game-card[data-game="numbers"] .btn-play:hover {
+.game-card[data-game="numbers"] .btn-play:hover,
+.game-card[data-game="rooms"] .btn-play:hover,
+.game-card[data-game="daily-routines"] .btn-play:hover {
     background: linear-gradient(135deg, #d5374c 0%, #d073db 100%);
     box-shadow: 0 12px 30px rgba(208, 115, 219, 0.5);
 }
