@@ -56,13 +56,10 @@ function showPlayerDisplay() {
 }
 
 function startDisciplina(disciplina) {
+    // Guardar nome antes de iniciar (usa 'Beni' como padrão se não houver nome)
     if (!playerName || playerName.trim() === '') {
-        alert('Por favor, escreve o teu nome primeiro!');
-        playerNameInput.focus();
-        return;
+        playerName = 'Beni';
     }
-    
-    // Guardar nome antes de iniciar
     localStorage.setItem('playerName', playerName);
     
     if (disciplina === 'portugues') {

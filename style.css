@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #e8f4f8 0%, #f5e8f5 50%, #f0f8e8 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -442,12 +442,11 @@ header {
 }
 
 .player-setup {
-    background: linear-gradient(135deg, #ffd93d 0%, #ff6b6b 50%, #6bcf7f 100%);
+    background: linear-gradient(135deg, #b8d4e8 0%, #d4b8d8 100%);
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-    border: 4px solid #fff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
     animation: pulse 3s ease-in-out infinite;
 }
 
@@ -463,55 +462,57 @@ header {
 .input-group label {
     display: block;
     font-size: 1.2em;
-    color: white;
+    color: #333;
     font-weight: bold;
     margin-bottom: 12px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .input-wrapper {
     display: flex;
     gap: 10px;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 .input-wrapper input {
     padding: 12px 18px;
     font-size: 1.1em;
-    border: 3px solid #fff;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 18px;
     font-family: inherit;
-    max-width: 280px;
-    width: 100%;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
 .input-wrapper input:focus {
     outline: none;
-    border-color: #ffd93d;
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(255, 217, 61, 0.4);
+    background: white;
+    border-color: #667eea;
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
 }
 
 .btn-save-name {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    background: linear-gradient(135deg, #4a5bc8 0%, #5a3a7a 100%);
     color: white;
     padding: 12px 20px;
-    font-size: 1em;
+    font-size: 0.95em;
     border: 3px solid #fff;
     border-radius: 18px;
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     font-weight: bold;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .btn-save-name:hover {
     transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 8px 25px rgba(79, 172, 254, 0.5);
+    box-shadow: 0 8px 25px rgba(74, 91, 200, 0.5);
+    background: linear-gradient(135deg, #5a3a7a 0%, #4a5bc8 100%);
 }
 
 .player-display {
@@ -576,20 +577,22 @@ header {
     transition: all 0.3s ease;
 }
 
-.game-card:nth-child(2) {
+/* Todos os exercícios de Português têm a mesma cor */
+body.portugues-page .game-card,
+.game-card[data-game="nomes"],
+.game-card[data-game="conectores"],
+.game-card[data-game="tipos-frases"] {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Todos os exercícios de Inglês têm a mesma cor */
+body.ingles-page .game-card,
+.game-card[data-game="present-continuous"],
+.game-card[data-game="present-simple"],
+.game-card[data-game="present-simple-to-be"],
+.game-card[data-game="present-simple-have-got"],
+.game-card[data-game="adverbs"] {
     background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-}
-
-.game-card:nth-child(3) {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-}
-
-.game-card:nth-child(4) {
-    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
-}
-
-.game-card:nth-child(5) {
-    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
 }
 
 .game-card:hover {
@@ -638,7 +641,7 @@ header {
 }
 
 .btn-play {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4a5bc8 0%, #5a3a7a 100%);
     color: white;
     padding: 14px 28px;
     font-size: 1.2em;
@@ -652,10 +655,56 @@ header {
     max-width: 260px;
 }
 
-.btn-play:hover {
-    transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 12px 30px rgba(102, 126, 234, 0.5);
-    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+/* Botões em exercícios de Português - versão mais escura do roxo */
+.game-card[data-game="nomes"] .btn-play,
+.game-card[data-game="conectores"] .btn-play,
+.game-card[data-game="tipos-frases"] .btn-play {
+    background: linear-gradient(135deg, #4a5bc8 0%, #5a3a7a 100%);
+}
+
+.game-card[data-game="nomes"] .btn-play:hover,
+.game-card[data-game="conectores"] .btn-play:hover,
+.game-card[data-game="tipos-frases"] .btn-play:hover {
+    background: linear-gradient(135deg, #5a3a7a 0%, #4a5bc8 100%);
+    box-shadow: 0 12px 30px rgba(74, 91, 200, 0.5);
+}
+
+/* Botões em exercícios de Inglês - versão mais escura do rosa/vermelho */
+.game-card[data-game="present-continuous"] .btn-play,
+.game-card[data-game="present-simple"] .btn-play,
+.game-card[data-game="present-simple-to-be"] .btn-play,
+.game-card[data-game="present-simple-have-got"] .btn-play,
+.game-card[data-game="adverbs"] .btn-play {
+    background: linear-gradient(135deg, #d073db 0%, #d5374c 100%);
+}
+
+.game-card[data-game="present-continuous"] .btn-play:hover,
+.game-card[data-game="present-simple"] .btn-play:hover,
+.game-card[data-game="present-simple-to-be"] .btn-play:hover,
+.game-card[data-game="present-simple-have-got"] .btn-play:hover,
+.game-card[data-game="adverbs"] .btn-play:hover {
+    background: linear-gradient(135deg, #d5374c 0%, #d073db 100%);
+    box-shadow: 0 12px 30px rgba(208, 115, 219, 0.5);
+}
+
+/* Botão na página de disciplinas - roxo mais escuro para Português */
+.disciplina-card[data-disciplina="portugues"] .btn-play {
+    background: linear-gradient(135deg, #4a5bc8 0%, #5a3a7a 100%);
+}
+
+.disciplina-card[data-disciplina="portugues"] .btn-play:hover {
+    background: linear-gradient(135deg, #5a3a7a 0%, #4a5bc8 100%);
+    box-shadow: 0 12px 30px rgba(74, 91, 200, 0.5);
+}
+
+/* Botão na página de disciplinas - rosa/vermelho mais escuro para Inglês */
+.disciplina-card[data-disciplina="ingles"] .btn-play {
+    background: linear-gradient(135deg, #d073db 0%, #d5374c 100%);
+}
+
+.disciplina-card[data-disciplina="ingles"] .btn-play:hover {
+    background: linear-gradient(135deg, #d5374c 0%, #d073db 100%);
+    box-shadow: 0 12px 30px rgba(208, 115, 219, 0.5);
 }
 
 .ranking-section {
@@ -683,28 +732,31 @@ header {
 }
 
 .ranking-buttons {
-    display: flex;
-    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .btn-ranking-small {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-    color: white;
-    padding: 12px 25px;
-    font-size: 1.1em;
-    font-weight: bold;
-    border: 4px solid #fff;
-    border-radius: 20px;
+    background: white;
+    color: #333;
+    padding: 14px 20px;
+    font-size: 1em;
+    font-weight: 600;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .btn-ranking-small:hover {
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 8px 25px rgba(79, 172, 254, 0.5);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-color: #667eea;
+    background: linear-gradient(135deg, #f8f9ff 0%, #f5f0ff 100%);
 }
 
 .footer-decoration {
@@ -1020,17 +1072,17 @@ header {
     }
     
     .input-wrapper {
-        flex-direction: column;
-        gap: 10px;
+        gap: 8px;
     }
     
     .input-wrapper input {
-        max-width: 100%;
         font-size: 1em;
+        padding: 10px 16px;
     }
     
     .btn-save-name {
-        width: 100%;
+        padding: 10px 16px;
+        font-size: 0.9em;
     }
     
     .ranking-buttons {

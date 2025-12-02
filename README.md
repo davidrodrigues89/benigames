@@ -1,4 +1,4 @@
-# 🐼 BeniGames
+# 🐼 Beni Games
 
 Uma aplicação web educativa com jogos interativos para aprender Português e Inglês de forma divertida!
 
