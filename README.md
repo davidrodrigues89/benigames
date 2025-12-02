@@ -16,6 +16,8 @@ Uma aplicação web educativa com jogos interativos para aprender Português e I
 - **Present Simple - Have Got** - Aprende 'have got' e 'has got'
 - **Adverbs** - Aprende sobre advérbios de frequência (always, sometimes, never, usually, everyday)
 - **Numbers 1-100** - Aprende números de 1 a 100 em inglês (número para palavra e palavra para número)
+- **The House** - Aprende vocabulário sobre divisões da casa em inglês britânico (bedroom, kitchen, bathroom, living room, garden, garage, flat, balcony, study)
+- **Daily Routines** - Aprende vocabulário sobre rotinas diárias em inglês britânico (wake up, get dressed, have a shower, catch the bus, do homework, have breakfast/lunch/dinner, brush teeth/hair, tidy room, make bed, listen to music)
 
 ## 🎮 Como Jogar
 
@@ -75,6 +77,8 @@ Uma aplicação web educativa com jogos interativos para aprender Português e I
 - `present-simple-have-got.html` / `present-simple-have-got.js` - Have Got
 - `adverbs.html` / `adverbs.js` - Adverbs
 - `numbers.html` / `numbers.js` - Numbers 1-100
+- `rooms.html` / `rooms.js` - The House (Divisões da Casa)
+- `daily-routines.html` / `daily-routines.js` - Daily Routines (Rotinas Diárias)
 
 ### Scripts de Menu
 - `disciplinas.js` - Lógica do menu principal
@@ -110,10 +114,14 @@ Uma aplicação web educativa com jogos interativos para aprender Português e I
 ## 🔄 Atualizações Recentes
 
 - ✅ Adicionado exercício Numbers 1-100
+- ✅ Adicionado exercício The House (vocabulário sobre divisões da casa)
+- ✅ Adicionado exercício Daily Routines (vocabulário sobre rotinas diárias)
+- ✅ Todos os exercícios de inglês utilizam British English
 - ✅ Modal de confirmação ao sair do exercício
 - ✅ Melhorias no layout responsivo
 - ✅ Sistema de ranking melhorado com modal
 - ✅ Botões adaptativos (lado a lado quando apropriado)
 - ✅ Suporte completo bilingue (PT/EN)
 - ✅ Design consistente em todos os exercícios
+- ✅ Perguntas únicas e variadas em todos os exercícios
 
