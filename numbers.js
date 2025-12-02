@@ -1,256 +1,94 @@
-// Perguntas sobre Present Continuous em Inglês
-const questions = [
-    {
-        question: "I _____ playing football now.",
-        type: "Present Continuous - Affirmative",
-        answers: [
-            { label: "A", text: "am", correct: true },
-            { label: "B", text: "is" },
-            { label: "C", text: "are" },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "She _____ reading a book.",
-        type: "Present Continuous - Affirmative",
-        answers: [
-            { label: "A", text: "am" },
-            { label: "B", text: "is", correct: true },
-            { label: "C", text: "are" },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "They _____ watching TV.",
-        type: "Present Continuous - Affirmative",
-        answers: [
-            { label: "A", text: "am" },
-            { label: "B", text: "is" },
-            { label: "C", text: "are", correct: true },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "I _____ not eating pizza.",
-        type: "Present Continuous - Negative",
-        answers: [
-            { label: "A", text: "am", correct: true },
-            { label: "B", text: "is" },
-            { label: "C", text: "are" },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "He _____ not sleeping.",
-        type: "Present Continuous - Negative",
-        answers: [
-            { label: "A", text: "am" },
-            { label: "B", text: "is", correct: true },
-            { label: "C", text: "are" },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "We _____ not playing games.",
-        type: "Present Continuous - Negative",
-        answers: [
-            { label: "A", text: "am" },
-            { label: "B", text: "is" },
-            { label: "C", text: "are", correct: true },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "_____ you running?",
-        type: "Present Continuous - Interrogative",
-        answers: [
-            { label: "A", text: "Am" },
-            { label: "B", text: "Is" },
-            { label: "C", text: "Are", correct: true },
-            { label: "D", text: "Be" }
-        ]
-    },
-    {
-        question: "_____ she dancing?",
-        type: "Present Continuous - Interrogative",
-        answers: [
-            { label: "A", text: "Am" },
-            { label: "B", text: "Is", correct: true },
-            { label: "C", text: "Are" },
-            { label: "D", text: "Be" }
-        ]
-    },
-    {
-        question: "_____ I playing?",
-        type: "Present Continuous - Interrogative",
-        answers: [
-            { label: "A", text: "Am", correct: true },
-            { label: "B", text: "Is" },
-            { label: "C", text: "Are" },
-            { label: "D", text: "Be" }
-        ]
-    },
-    {
-        question: "The cat _____ sleeping on the sofa.",
-        type: "Present Continuous - Affirmative",
-        answers: [
-            { label: "A", text: "am" },
-            { label: "B", text: "is", correct: true },
-            { label: "C", text: "are" },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "My friends _____ not coming today.",
-        type: "Present Continuous - Negative",
-        answers: [
-            { label: "A", text: "am" },
-            { label: "B", text: "is" },
-            { label: "C", text: "are", correct: true },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "_____ the dog barking?",
-        type: "Present Continuous - Interrogative",
-        answers: [
-            { label: "A", text: "Am" },
-            { label: "B", text: "Is", correct: true },
-            { label: "C", text: "Are" },
-            { label: "D", text: "Be" }
-        ]
-    },
-    {
-        question: "You _____ singing.",
-        type: "Present Continuous - Affirmative",
-        answers: [
-            { label: "A", text: "am" },
-            { label: "B", text: "is" },
-            { label: "C", text: "are", correct: true },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "It _____ not raining now.",
-        type: "Present Continuous - Negative",
-        answers: [
-            { label: "A", text: "am" },
-            { label: "B", text: "is", correct: true },
-            { label: "C", text: "are" },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "_____ they playing football?",
-        type: "Present Continuous - Interrogative",
-        answers: [
-            { label: "A", text: "Am" },
-            { label: "B", text: "Is" },
-            { label: "C", text: "Are", correct: true },
-            { label: "D", text: "Be" }
-        ]
-    },
-    {
-        question: "I _____ drawing.",
-        type: "Present Continuous - Affirmative",
-        answers: [
-            { label: "A", text: "am", correct: true },
-            { label: "B", text: "is" },
-            { label: "C", text: "are" },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "She _____ not listening to music.",
-        type: "Present Continuous - Negative",
-        answers: [
-            { label: "A", text: "am" },
-            { label: "B", text: "is", correct: true },
-            { label: "C", text: "are" },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "_____ he eating breakfast?",
-        type: "Present Continuous - Interrogative",
-        answers: [
-            { label: "A", text: "Am" },
-            { label: "B", text: "Is", correct: true },
-            { label: "C", text: "Are" },
-            { label: "D", text: "Be" }
-        ]
-    },
-    {
-        question: "We _____ having fun!",
-        type: "Present Continuous - Affirmative",
-        answers: [
-            { label: "A", text: "am" },
-            { label: "B", text: "is" },
-            { label: "C", text: "are", correct: true },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "The birds _____ flying in the sky.",
-        type: "Present Continuous - Affirmative",
-        answers: [
-            { label: "A", text: "am" },
-            { label: "B", text: "is" },
-            { label: "C", text: "are", correct: true },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "I _____ not going to school today.",
-        type: "Present Continuous - Negative",
-        answers: [
-            { label: "A", text: "am", correct: true },
-            { label: "B", text: "is" },
-            { label: "C", text: "are" },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "_____ you studying English?",
-        type: "Present Continuous - Interrogative",
-        answers: [
-            { label: "A", text: "Am" },
-            { label: "B", text: "Is" },
-            { label: "C", text: "Are", correct: true },
-            { label: "D", text: "Be" }
-        ]
-    },
-    {
-        question: "The sun _____ shining.",
-        type: "Present Continuous - Affirmative",
-        answers: [
-            { label: "A", text: "am" },
-            { label: "B", text: "is", correct: true },
-            { label: "C", text: "are" },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "They _____ not swimming.",
-        type: "Present Continuous - Negative",
-        answers: [
-            { label: "A", text: "am" },
-            { label: "B", text: "is" },
-            { label: "C", text: "are", correct: true },
-            { label: "D", text: "be" }
-        ]
-    },
-    {
-        question: "_____ it snowing?",
-        type: "Present Continuous - Interrogative",
-        answers: [
-            { label: "A", text: "Am" },
-            { label: "B", text: "Is", correct: true },
-            { label: "C", text: "Are" },
-            { label: "D", text: "Be" }
-        ]
+// Perguntas sobre Números de 1 a 100 em Inglês
+const numberWords = {
+    1: "one", 2: "two", 3: "three", 4: "four", 5: "five",
+    6: "six", 7: "seven", 8: "eight", 9: "nine", 10: "ten",
+    11: "eleven", 12: "twelve", 13: "thirteen", 14: "fourteen", 15: "fifteen",
+    16: "sixteen", 17: "seventeen", 18: "eighteen", 19: "nineteen", 20: "twenty",
+    21: "twenty-one", 22: "twenty-two", 23: "twenty-three", 24: "twenty-four", 25: "twenty-five",
+    26: "twenty-six", 27: "twenty-seven", 28: "twenty-eight", 29: "twenty-nine", 30: "thirty",
+    31: "thirty-one", 32: "thirty-two", 33: "thirty-three", 34: "thirty-four", 35: "thirty-five",
+    36: "thirty-six", 37: "thirty-seven", 38: "thirty-eight", 39: "thirty-nine", 40: "forty",
+    41: "forty-one", 42: "forty-two", 43: "forty-three", 44: "forty-four", 45: "forty-five",
+    46: "forty-six", 47: "forty-seven", 48: "forty-eight", 49: "forty-nine", 50: "fifty",
+    51: "fifty-one", 52: "fifty-two", 53: "fifty-three", 54: "fifty-four", 55: "fifty-five",
+    56: "fifty-six", 57: "fifty-seven", 58: "fifty-eight", 59: "fifty-nine", 60: "sixty",
+    61: "sixty-one", 62: "sixty-two", 63: "sixty-three", 64: "sixty-four", 65: "sixty-five",
+    66: "sixty-six", 67: "sixty-seven", 68: "sixty-eight", 69: "sixty-nine", 70: "seventy",
+    71: "seventy-one", 72: "seventy-two", 73: "seventy-three", 74: "seventy-four", 75: "seventy-five",
+    76: "seventy-six", 77: "seventy-seven", 78: "seventy-eight", 79: "seventy-nine", 80: "eighty",
+    81: "eighty-one", 82: "eighty-two", 83: "eighty-three", 84: "eighty-four", 85: "eighty-five",
+    86: "eighty-six", 87: "eighty-seven", 88: "eighty-eight", 89: "eighty-nine", 90: "ninety",
+    91: "ninety-one", 92: "ninety-two", 93: "ninety-three", 94: "ninety-four", 95: "ninety-five",
+    96: "ninety-six", 97: "ninety-seven", 98: "ninety-eight", 99: "ninety-nine", 100: "one hundred"
+};
+
+function generateNumberQuestions() {
+    const questions = [];
+    const numbers = Object.keys(numberWords).map(Number);
+    
+    // Generate questions: number to word
+    for (let i = 0; i < 50; i++) {
+        const num = numbers[Math.floor(Math.random() * numbers.length)];
+        const correctWord = numberWords[num];
+        
+        // Get 3 random wrong answers
+        const wrongNumbers = numbers.filter(n => n !== num);
+        const wrongAnswers = [];
+        while (wrongAnswers.length < 3) {
+            const wrongNum = wrongNumbers[Math.floor(Math.random() * wrongNumbers.length)];
+            const wrongWord = numberWords[wrongNum];
+            if (!wrongAnswers.includes(wrongWord)) {
+                wrongAnswers.push(wrongWord);
+            }
+        }
+        
+        const allAnswers = [correctWord, ...wrongAnswers].sort(() => Math.random() - 0.5);
+        
+        questions.push({
+            question: `What is the number ${num} in words?`,
+            type: "Numbers 1-100",
+            answers: [
+                { label: "A", text: allAnswers[0], correct: allAnswers[0] === correctWord },
+                { label: "B", text: allAnswers[1], correct: allAnswers[1] === correctWord },
+                { label: "C", text: allAnswers[2], correct: allAnswers[2] === correctWord },
+                { label: "D", text: allAnswers[3], correct: allAnswers[3] === correctWord }
+            ]
+        });
     }
-];
+    
+    // Generate questions: word to number
+    for (let i = 0; i < 50; i++) {
+        const num = numbers[Math.floor(Math.random() * numbers.length)];
+        const word = numberWords[num];
+        
+        // Get 3 random wrong numbers
+        const wrongNumbers = numbers.filter(n => n !== num);
+        const wrongAnswers = [];
+        while (wrongAnswers.length < 3) {
+            const wrongNum = wrongNumbers[Math.floor(Math.random() * wrongNumbers.length)];
+            if (!wrongAnswers.includes(wrongNum)) {
+                wrongAnswers.push(wrongNum);
+            }
+        }
+        
+        const allAnswers = [num, ...wrongAnswers].sort(() => Math.random() - 0.5);
+        
+        questions.push({
+            question: `What number is "${word}"?`,
+            type: "Numbers 1-100",
+            answers: [
+                { label: "A", text: allAnswers[0].toString(), correct: allAnswers[0] === num },
+                { label: "B", text: allAnswers[1].toString(), correct: allAnswers[1] === num },
+                { label: "C", text: allAnswers[2].toString(), correct: allAnswers[2] === num },
+                { label: "D", text: allAnswers[3].toString(), correct: allAnswers[3] === num }
+            ]
+        });
+    }
+    
+    return questions;
+}
+
+const questions = generateNumberQuestions();
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -258,7 +96,7 @@ let answered = false;
 
 let PLAYER_NAME = localStorage.getItem('playerName') || 'Beni';
 const QUESTIONS_PER_GAME = 25;
-const RANKING_KEY = 'presentContinuousRanking';
+const RANKING_KEY = 'numbersRanking';
 
 const questionText = document.getElementById('question-text');
 const questionType = document.getElementById('question-type');
@@ -270,7 +108,6 @@ const scoreElement = document.getElementById('score');
 const questionNumberElement = document.getElementById('question-number');
 const totalQuestionsElement = document.getElementById('total-questions');
 
-// Embaralhar perguntas aleatoriamente
 function shuffleArray(array) {
     const shuffled = [...array];
     for (let i = shuffled.length - 1; i > 0; i--) {
@@ -282,7 +119,6 @@ function shuffleArray(array) {
 
 let shuffledQuestions = shuffleArray(questions).slice(0, QUESTIONS_PER_GAME);
 
-// Sistema de Ranking
 function getRanking() {
     const ranking = localStorage.getItem(RANKING_KEY);
     return ranking ? JSON.parse(ranking) : [];
@@ -317,7 +153,7 @@ function displayRanking() {
     const rankingModal = document.getElementById('ranking-modal');
     const closeRankingBtn = document.getElementById('close-ranking-btn');
     
-    rankingTitle.textContent = `🏆 Ranking - Present Continuous 🏆`;
+    rankingTitle.textContent = `🏆 Ranking - Numbers 🏆`;
     
     if (ranking.length === 0) {
         rankingList.innerHTML = '<p class="no-ranking">No scores yet! Play to appear on the ranking! 🎮</p>';
@@ -362,7 +198,7 @@ function initGame() {
     PLAYER_NAME = localStorage.getItem('playerName') || 'Beni';
     const playerGreeting = document.getElementById('player-greeting');
     if (playerGreeting) {
-        playerGreeting.textContent = `Hello ${PLAYER_NAME}! Learn the Present Continuous in English!`;
+        playerGreeting.textContent = `Hello ${PLAYER_NAME}! Learn numbers 1 to 100 in English!`;
     }
     
     currentQuestionIndex = 0;

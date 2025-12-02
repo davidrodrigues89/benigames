@@ -6,8 +6,8 @@ const questions = [
         answers: [
             { label: "A", text: "have got", correct: true },
             { label: "B", text: "has got" },
-            { label: "C", text: "am got" },
-            { label: "D", text: "is got" }
+            { label: "C", text: "haven't got" },
+            { label: "D", text: "hasn't got" }
         ]
     },
     {
@@ -16,8 +16,8 @@ const questions = [
         answers: [
             { label: "A", text: "have got" },
             { label: "B", text: "has got", correct: true },
-            { label: "C", text: "am got" },
-            { label: "D", text: "is got" }
+            { label: "C", text: "haven't got" },
+            { label: "D", text: "hasn't got" }
         ]
     },
     {
@@ -26,38 +26,38 @@ const questions = [
         answers: [
             { label: "A", text: "have got", correct: true },
             { label: "B", text: "has got" },
-            { label: "C", text: "am got" },
-            { label: "D", text: "is got" }
+            { label: "C", text: "haven't got" },
+            { label: "D", text: "hasn't got" }
         ]
     },
     {
-        question: "I _____ not got a computer.",
+        question: "I _____ a computer.",
         type: "Present Simple - Have Got - Negative",
         answers: [
-            { label: "A", text: "have", correct: true },
-            { label: "B", text: "has" },
-            { label: "C", text: "am" },
-            { label: "D", text: "is" }
+            { label: "A", text: "have got" },
+            { label: "B", text: "has got" },
+            { label: "C", text: "haven't got", correct: true },
+            { label: "D", text: "hasn't got" }
         ]
     },
     {
-        question: "He _____ not got a dog.",
+        question: "He _____ a dog.",
         type: "Present Simple - Have Got - Negative",
         answers: [
-            { label: "A", text: "have" },
-            { label: "B", text: "has", correct: true },
-            { label: "C", text: "am" },
-            { label: "D", text: "is" }
+            { label: "A", text: "have got" },
+            { label: "B", text: "has got" },
+            { label: "C", text: "haven't got" },
+            { label: "D", text: "hasn't got", correct: true }
         ]
     },
     {
-        question: "We _____ not got a car.",
+        question: "We _____ a car.",
         type: "Present Simple - Have Got - Negative",
         answers: [
-            { label: "A", text: "have", correct: true },
-            { label: "B", text: "has" },
-            { label: "C", text: "am" },
-            { label: "D", text: "is" }
+            { label: "A", text: "have got" },
+            { label: "B", text: "has got" },
+            { label: "C", text: "haven't got", correct: true },
+            { label: "D", text: "hasn't got" }
         ]
     },
     {
@@ -66,8 +66,8 @@ const questions = [
         answers: [
             { label: "A", text: "Have", correct: true },
             { label: "B", text: "Has" },
-            { label: "C", text: "Am" },
-            { label: "D", text: "Is" }
+            { label: "C", text: "Haven't" },
+            { label: "D", text: "Hasn't" }
         ]
     },
     {
@@ -76,8 +76,8 @@ const questions = [
         answers: [
             { label: "A", text: "Have" },
             { label: "B", text: "Has", correct: true },
-            { label: "C", text: "Am" },
-            { label: "D", text: "Is" }
+            { label: "C", text: "Haven't" },
+            { label: "D", text: "Hasn't" }
         ]
     },
     {
@@ -86,28 +86,28 @@ const questions = [
         answers: [
             { label: "A", text: "Have", correct: true },
             { label: "B", text: "Has" },
-            { label: "C", text: "Am" },
-            { label: "D", text: "Is" }
+            { label: "C", text: "Haven't" },
+            { label: "D", text: "Hasn't" }
         ]
     },
     {
         question: "The cat _____ got four legs.",
         type: "Present Simple - Have Got - Affirmative",
         answers: [
-            { label: "A", text: "have" },
-            { label: "B", text: "has", correct: true },
-            { label: "C", text: "am" },
-            { label: "D", text: "is" }
+            { label: "A", text: "have got" },
+            { label: "B", text: "has got", correct: true },
+            { label: "C", text: "haven't got" },
+            { label: "D", text: "hasn't got" }
         ]
     },
     {
-        question: "My friends _____ not got bikes.",
+        question: "My friends _____ bikes.",
         type: "Present Simple - Have Got - Negative",
         answers: [
-            { label: "A", text: "have", correct: true },
-            { label: "B", text: "has" },
-            { label: "C", text: "am" },
-            { label: "D", text: "is" }
+            { label: "A", text: "have got" },
+            { label: "B", text: "has got" },
+            { label: "C", text: "haven't got", correct: true },
+            { label: "D", text: "hasn't got" }
         ]
     },
     {
@@ -116,28 +116,28 @@ const questions = [
         answers: [
             { label: "A", text: "Have" },
             { label: "B", text: "Has", correct: true },
-            { label: "C", text: "Am" },
-            { label: "D", text: "Is" }
+            { label: "C", text: "Haven't" },
+            { label: "D", text: "Hasn't" }
         ]
     },
     {
         question: "You _____ got nice shoes.",
         type: "Present Simple - Have Got - Affirmative",
         answers: [
-            { label: "A", text: "have", correct: true },
-            { label: "B", text: "has" },
-            { label: "C", text: "am" },
-            { label: "D", text: "is" }
+            { label: "A", text: "have got", correct: true },
+            { label: "B", text: "has got" },
+            { label: "C", text: "haven't got" },
+            { label: "D", text: "hasn't got" }
         ]
     },
     {
-        question: "It _____ not got wheels.",
+        question: "It _____ wheels.",
         type: "Present Simple - Have Got - Negative",
         answers: [
-            { label: "A", text: "have" },
-            { label: "B", text: "has", correct: true },
-            { label: "C", text: "am" },
-            { label: "D", text: "is" }
+            { label: "A", text: "have got" },
+            { label: "B", text: "has got" },
+            { label: "C", text: "haven't got" },
+            { label: "D", text: "hasn't got", correct: true }
         ]
     },
     {
@@ -146,28 +146,28 @@ const questions = [
         answers: [
             { label: "A", text: "Have", correct: true },
             { label: "B", text: "Has" },
-            { label: "C", text: "Am" },
-            { label: "D", text: "Is" }
+            { label: "C", text: "Haven't" },
+            { label: "D", text: "Hasn't" }
         ]
     },
     {
         question: "I _____ got a red ball.",
         type: "Present Simple - Have Got - Affirmative",
         answers: [
-            { label: "A", text: "have", correct: true },
-            { label: "B", text: "has" },
-            { label: "C", text: "am" },
-            { label: "D", text: "is" }
+            { label: "A", text: "have got", correct: true },
+            { label: "B", text: "has got" },
+            { label: "C", text: "haven't got" },
+            { label: "D", text: "hasn't got" }
         ]
     },
     {
-        question: "She _____ not got a sister.",
+        question: "She _____ a sister.",
         type: "Present Simple - Have Got - Negative",
         answers: [
-            { label: "A", text: "have" },
-            { label: "B", text: "has", correct: true },
-            { label: "C", text: "am" },
-            { label: "D", text: "is" }
+            { label: "A", text: "have got" },
+            { label: "B", text: "has got" },
+            { label: "C", text: "haven't got" },
+            { label: "D", text: "hasn't got", correct: true }
         ]
     },
     {
@@ -176,38 +176,38 @@ const questions = [
         answers: [
             { label: "A", text: "Have" },
             { label: "B", text: "Has", correct: true },
-            { label: "C", text: "Am" },
-            { label: "D", text: "Is" }
+            { label: "C", text: "Haven't" },
+            { label: "D", text: "Hasn't" }
         ]
     },
     {
         question: "We _____ got a big house.",
         type: "Present Simple - Have Got - Affirmative",
         answers: [
-            { label: "A", text: "have", correct: true },
-            { label: "B", text: "has" },
-            { label: "C", text: "am" },
-            { label: "D", text: "is" }
+            { label: "A", text: "have got", correct: true },
+            { label: "B", text: "has got" },
+            { label: "C", text: "haven't got" },
+            { label: "D", text: "hasn't got" }
         ]
     },
     {
         question: "The birds _____ got wings.",
         type: "Present Simple - Have Got - Affirmative",
         answers: [
-            { label: "A", text: "have", correct: true },
-            { label: "B", text: "has" },
-            { label: "C", text: "am" },
-            { label: "D", text: "is" }
+            { label: "A", text: "have got", correct: true },
+            { label: "B", text: "has got" },
+            { label: "C", text: "haven't got" },
+            { label: "D", text: "hasn't got" }
         ]
     },
     {
-        question: "I _____ not got a phone.",
+        question: "I _____ a phone.",
         type: "Present Simple - Have Got - Negative",
         answers: [
-            { label: "A", text: "have", correct: true },
-            { label: "B", text: "has" },
-            { label: "C", text: "am" },
-            { label: "D", text: "is" }
+            { label: "A", text: "have got" },
+            { label: "B", text: "has got" },
+            { label: "C", text: "haven't got", correct: true },
+            { label: "D", text: "hasn't got" }
         ]
     },
     {
@@ -216,38 +216,38 @@ const questions = [
         answers: [
             { label: "A", text: "Have", correct: true },
             { label: "B", text: "Has" },
-            { label: "C", text: "Am" },
-            { label: "D", text: "Is" }
+            { label: "C", text: "Haven't" },
+            { label: "D", text: "Hasn't" }
         ]
     },
     {
         question: "The sun _____ got light.",
         type: "Present Simple - Have Got - Affirmative",
         answers: [
-            { label: "A", text: "have" },
-            { label: "B", text: "has", correct: true },
-            { label: "C", text: "am" },
-            { label: "D", text: "is" }
+            { label: "A", text: "have got" },
+            { label: "B", text: "has got", correct: true },
+            { label: "C", text: "haven't got" },
+            { label: "D", text: "hasn't got" }
         ]
     },
     {
         question: "I _____ got a toy.",
         type: "Present Simple - Have Got - Affirmative",
         answers: [
-            { label: "A", text: "have", correct: true },
-            { label: "B", text: "has" },
-            { label: "C", text: "am" },
-            { label: "D", text: "is" }
+            { label: "A", text: "have got", correct: true },
+            { label: "B", text: "has got" },
+            { label: "C", text: "haven't got" },
+            { label: "D", text: "hasn't got" }
         ]
-    }
+    },
     {
-        question: "They _____ not got money.",
+        question: "They _____ money.",
         type: "Present Simple - Have Got - Negative",
         answers: [
-            { label: "A", text: "have", correct: true },
-            { label: "B", text: "has" },
-            { label: "C", text: "am" },
-            { label: "D", text: "is" }
+            { label: "A", text: "have got" },
+            { label: "B", text: "has got" },
+            { label: "C", text: "haven't got", correct: true },
+            { label: "D", text: "hasn't got" }
         ]
     },
     {
@@ -256,8 +256,8 @@ const questions = [
         answers: [
             { label: "A", text: "Have" },
             { label: "B", text: "Has", correct: true },
-            { label: "C", text: "Am" },
-            { label: "D", text: "Is" }
+            { label: "C", text: "Haven't" },
+            { label: "D", text: "Hasn't" }
         ]
     }
 ];
@@ -322,25 +322,48 @@ function displayRanking() {
     const ranking = getRanking();
     const rankingList = document.getElementById('ranking-list');
     const rankingTitle = document.getElementById('ranking-title');
+    const rankingModal = document.getElementById('ranking-modal');
+    const closeRankingBtn = document.getElementById('close-ranking-btn');
     
     rankingTitle.textContent = `🏆 Ranking - Present Simple Have Got 🏆`;
     
     if (ranking.length === 0) {
         rankingList.innerHTML = '<p class="no-ranking">No scores yet! Play to appear on the ranking! 🎮</p>';
-        return;
+    } else {
+        rankingList.innerHTML = ranking.map((entry, index) => {
+            const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '🏅';
+            return `
+                <div class="ranking-entry ${index < 3 ? 'top-three' : ''}">
+                    <span class="ranking-position">${medal} ${index + 1}${getOrdinal(index + 1)}</span>
+                    <span class="ranking-player">${entry.player}</span>
+                    <span class="ranking-score">${entry.score}/${entry.total} (${entry.percentage}%)</span>
+                    <span class="ranking-date">${entry.date}</span>
+                </div>
+            `;
+        }).join('');
     }
     
-    rankingList.innerHTML = ranking.map((entry, index) => {
-        const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '🏅';
-        return `
-            <div class="ranking-entry ${index < 3 ? 'top-three' : ''}">
-                <span class="ranking-position">${medal} ${index + 1}${getOrdinal(index + 1)}</span>
-                <span class="ranking-player">${entry.player}</span>
-                <span class="ranking-score">${entry.score}/${entry.total} (${entry.percentage}%)</span>
-                <span class="ranking-date">${entry.date}</span>
-            </div>
-        `;
-    }).join('');
+    // Mostrar modal
+    if (rankingModal) {
+        rankingModal.style.display = 'flex';
+    }
+    
+    // Event listeners para fechar modal
+    if (closeRankingBtn) {
+        closeRankingBtn.addEventListener('click', () => {
+            if (rankingModal) {
+                rankingModal.style.display = 'none';
+            }
+        });
+    }
+    
+    if (rankingModal) {
+        rankingModal.addEventListener('click', (e) => {
+            if (e.target === rankingModal) {
+                rankingModal.style.display = 'none';
+            }
+        });
+    }
 }
 
 function initGame() {
@@ -384,6 +407,10 @@ function loadQuestion() {
     feedback.textContent = '';
     feedback.className = 'feedback';
     nextBtn.style.display = 'none';
+    const backButton = document.querySelector('.back-button');
+    if (backButton) {
+        backButton.classList.remove('has-next');
+    }
 
     question.answers.forEach(answer => {
         const button = document.createElement('button');
@@ -435,6 +462,10 @@ function selectAnswer(answer, button) {
 
     if (currentQuestionIndex < shuffledQuestions.length - 1) {
         nextBtn.style.display = 'inline-block';
+        const backButton = document.querySelector('.back-button');
+        if (backButton) {
+            backButton.classList.add('has-next');
+        }
     } else {
         setTimeout(() => {
             endGame();

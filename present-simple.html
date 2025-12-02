@@ -20,7 +20,7 @@
             </div>
             <div class="score-item">
                 <span class="score-label">Question:</span>
-                <span class="score-value" id="question-number">1</span> / <span id="total-questions">25</span>
+                <span class="score-value"><span id="question-number">1</span> / <span id="total-questions">25</span></span>
             </div>
         </div>
 
@@ -37,13 +37,24 @@
             <div class="feedback" id="feedback"></div>
         </div>
 
-        <div class="controls">
-            <button class="btn btn-primary" id="next-btn" style="display: none;">Next Question</button>
-            <button class="btn btn-restart" id="restart-btn" style="display: none;">Play Again</button>
+        <div class="controls-wrapper">
+            <div class="controls">
+                <button class="btn btn-primary" id="next-btn" style="display: none;">Next Question</button>
+                <button class="btn btn-restart" id="restart-btn" style="display: none;">Play Again</button>
+            </div>
+            
+            <div class="back-button">
+                <button class="btn btn-back" onclick="window.location.href='ingles.html'">← Back to Menu</button>
+            </div>
         </div>
-        
-        <div class="back-button">
-            <button class="btn btn-back" onclick="window.location.href='ingles.html'">← Back to Menu</button>
+    </div>
+
+    <!-- Ranking Modal -->
+    <div class="ranking-modal" id="ranking-modal">
+        <div class="ranking-content">
+            <h2 id="ranking-title">🏆 Ranking 🏆</h2>
+            <div class="ranking-list" id="ranking-list"></div>
+            <button class="btn btn-close" id="close-ranking-btn">Close</button>
         </div>
     </div>
 

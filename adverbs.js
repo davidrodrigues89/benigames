@@ -1,7 +1,7 @@
 // Perguntas sobre Adverbs de Frequência em Inglês
 const questions = [
     {
-        question: "I _____ brush my teeth in the morning.",
+        question: "I _____ brush my teeth. Every single day, never forget!",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: true },
@@ -11,17 +11,17 @@ const questions = [
         ]
     },
     {
-        question: "She _____ goes to the park on weekends.",
+        question: "She _____ plays with toys. Only when she feels like it.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
             { label: "B", text: "sometimes", correct: true },
             { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "D", text: "usually", correct: false }
         ]
     },
     {
-        question: "He _____ eats vegetables.",
+        question: "He _____ eats candy. His mom never lets him.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -31,7 +31,7 @@ const questions = [
         ]
     },
     {
-        question: "We _____ have breakfast at 8 o'clock.",
+        question: "We _____ eat breakfast. Almost every day, but not always.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -41,7 +41,7 @@ const questions = [
         ]
     },
     {
-        question: "I go to school _____.",
+        question: "I go to school _____. Monday, Tuesday, Wednesday, Thursday, Friday.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -51,7 +51,7 @@ const questions = [
         ]
     },
     {
-        question: "They _____ play soccer after school.",
+        question: "They _____ play games. Not every day, just now and then.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -61,7 +61,7 @@ const questions = [
         ]
     },
     {
-        question: "She _____ forgets her homework.",
+        question: "She _____ forgets her bag. She always remembers it!",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -71,7 +71,7 @@ const questions = [
         ]
     },
     {
-        question: "I _____ wake up early.",
+        question: "I _____ wake up early. Most mornings, but sometimes I sleep late.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -81,7 +81,7 @@ const questions = [
         ]
     },
     {
-        question: "We eat lunch _____.",
+        question: "We eat lunch _____. Every single day at noon.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -91,7 +91,7 @@ const questions = [
         ]
     },
     {
-        question: "He _____ helps his mom.",
+        question: "He _____ helps at home. Without fail, every single time!",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: true },
@@ -101,7 +101,7 @@ const questions = [
         ]
     },
     {
-        question: "I _____ watch TV in the evening.",
+        question: "I _____ watch cartoons. Only on weekends, not every day.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -111,7 +111,7 @@ const questions = [
         ]
     },
     {
-        question: "She _____ goes to bed late.",
+        question: "She _____ goes to bed late. She always sleeps at 8 PM!",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -121,7 +121,7 @@ const questions = [
         ]
     },
     {
-        question: "We _____ do our homework.",
+        question: "We _____ do homework. Almost every day, but we skip it sometimes.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -131,7 +131,7 @@ const questions = [
         ]
     },
     {
-        question: "I drink water _____.",
+        question: "I drink milk _____. Every morning and every night.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -141,7 +141,7 @@ const questions = [
         ]
     },
     {
-        question: "They _____ visit their grandparents.",
+        question: "They _____ visit friends. Only once in a while, not often.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -151,7 +151,7 @@ const questions = [
         ]
     },
     {
-        question: "He _____ says 'please' and 'thank you'.",
+        question: "He _____ says hello. Every time he sees someone, without exception!",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: true },
@@ -161,7 +161,7 @@ const questions = [
         ]
     },
     {
-        question: "I _____ eat ice cream.",
+        question: "I _____ eat fruit. Not every day, just when I feel like it.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -171,7 +171,7 @@ const questions = [
         ]
     },
     {
-        question: "She _____ reads before sleeping.",
+        question: "She _____ reads books. Most nights before bed, but not always.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -181,7 +181,7 @@ const questions = [
         ]
     },
     {
-        question: "We play outside _____.",
+        question: "We play outside _____. Every single day after school.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -191,7 +191,7 @@ const questions = [
         ]
     },
     {
-        question: "I _____ clean my room.",
+        question: "I _____ clean my room. Only when my mom asks me to.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -201,7 +201,7 @@ const questions = [
         ]
     },
     {
-        question: "He _____ comes to school.",
+        question: "He _____ comes to school. Every single day, never misses!",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: true },
@@ -211,7 +211,7 @@ const questions = [
         ]
     },
     {
-        question: "She _____ goes swimming.",
+        question: "She _____ goes swimming. She is afraid of water!",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -221,7 +221,7 @@ const questions = [
         ]
     },
     {
-        question: "I _____ have a snack in the afternoon.",
+        question: "I _____ have a snack. Most afternoons, but not every day.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -231,7 +231,7 @@ const questions = [
         ]
     },
     {
-        question: "We play English games _____.",
+        question: "We play games _____. Every day after homework.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -241,7 +241,7 @@ const questions = [
         ]
     },
     {
-        question: "They _____ listen to music.",
+        question: "They _____ listen to songs. Not every day, just occasionally.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: false },
@@ -312,25 +312,48 @@ function displayRanking() {
     const ranking = getRanking();
     const rankingList = document.getElementById('ranking-list');
     const rankingTitle = document.getElementById('ranking-title');
+    const rankingModal = document.getElementById('ranking-modal');
+    const closeRankingBtn = document.getElementById('close-ranking-btn');
     
     rankingTitle.textContent = `🏆 Ranking - Adverbs 🏆`;
     
     if (ranking.length === 0) {
         rankingList.innerHTML = '<p class="no-ranking">No scores yet! Play to appear on the ranking! 🎮</p>';
-        return;
+    } else {
+        rankingList.innerHTML = ranking.map((entry, index) => {
+            const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '🏅';
+            return `
+                <div class="ranking-entry ${index < 3 ? 'top-three' : ''}">
+                    <span class="ranking-position">${medal} ${index + 1}${getOrdinal(index + 1)}</span>
+                    <span class="ranking-player">${entry.player}</span>
+                    <span class="ranking-score">${entry.score}/${entry.total} (${entry.percentage}%)</span>
+                    <span class="ranking-date">${entry.date}</span>
+                </div>
+            `;
+        }).join('');
     }
     
-    rankingList.innerHTML = ranking.map((entry, index) => {
-        const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '🏅';
-        return `
-            <div class="ranking-entry ${index < 3 ? 'top-three' : ''}">
-                <span class="ranking-position">${medal} ${index + 1}${getOrdinal(index + 1)}</span>
-                <span class="ranking-player">${entry.player}</span>
-                <span class="ranking-score">${entry.score}/${entry.total} (${entry.percentage}%)</span>
-                <span class="ranking-date">${entry.date}</span>
-            </div>
-        `;
-    }).join('');
+    // Mostrar modal
+    if (rankingModal) {
+        rankingModal.style.display = 'flex';
+    }
+    
+    // Event listeners para fechar modal
+    if (closeRankingBtn) {
+        closeRankingBtn.addEventListener('click', () => {
+            if (rankingModal) {
+                rankingModal.style.display = 'none';
+            }
+        });
+    }
+    
+    if (rankingModal) {
+        rankingModal.addEventListener('click', (e) => {
+            if (e.target === rankingModal) {
+                rankingModal.style.display = 'none';
+            }
+        });
+    }
 }
 
 function initGame() {
@@ -374,6 +397,11 @@ function loadQuestion() {
     feedback.textContent = '';
     feedback.className = 'feedback';
     nextBtn.style.display = 'none';
+    // Remover classe quando next-btn está oculto
+    const backButton = document.querySelector('.back-button');
+    if (backButton) {
+        backButton.classList.remove('has-next');
+    }
 
     question.answers.forEach(answer => {
         const button = document.createElement('button');
@@ -425,6 +453,11 @@ function selectAnswer(answer, button) {
 
     if (currentQuestionIndex < shuffledQuestions.length - 1) {
         nextBtn.style.display = 'inline-block';
+        // Adicionar classe para alinhar botões lado a lado
+        const backButton = document.querySelector('.back-button');
+        if (backButton) {
+            backButton.classList.add('has-next');
+        }
     } else {
         setTimeout(() => {
             endGame();

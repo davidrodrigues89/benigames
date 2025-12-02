@@ -50,6 +50,8 @@ function startGame(game) {
         window.location.href = 'present-simple-have-got.html';
     } else if (game === 'adverbs') {
         window.location.href = 'adverbs.html';
+    } else if (game === 'numbers') {
+        window.location.href = 'numbers.html';
     }
 }
 
@@ -72,6 +74,9 @@ function showRanking(game) {
     } else if (game === 'adverbs') {
         gameName = 'Adverbs';
         rankingKey = 'adverbsRanking';
+    } else if (game === 'numbers') {
+        gameName = 'Numbers 1-100';
+        rankingKey = 'numbersRanking';
     }
     
     rankingTitle.textContent = `🏆 Ranking - ${gameName} 🏆`;

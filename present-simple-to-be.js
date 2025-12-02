@@ -37,7 +37,7 @@ const questions = [
             { label: "A", text: "am", correct: true },
             { label: "B", text: "is" },
             { label: "C", text: "are" },
-            { label: "D", text: "be" }
+            { label: "D", text: "am not" }
         ]
     },
     {
@@ -47,7 +47,7 @@ const questions = [
             { label: "A", text: "am" },
             { label: "B", text: "is", correct: true },
             { label: "C", text: "are" },
-            { label: "D", text: "be" }
+            { label: "D", text: "isn't" }
         ]
     },
     {
@@ -57,7 +57,7 @@ const questions = [
             { label: "A", text: "am" },
             { label: "B", text: "is" },
             { label: "C", text: "are", correct: true },
-            { label: "D", text: "be" }
+            { label: "D", text: "aren't" }
         ]
     },
     {
@@ -107,7 +107,7 @@ const questions = [
             { label: "A", text: "am" },
             { label: "B", text: "is" },
             { label: "C", text: "are", correct: true },
-            { label: "D", text: "be" }
+            { label: "D", text: "aren't" }
         ]
     },
     {
@@ -137,7 +137,7 @@ const questions = [
             { label: "A", text: "am" },
             { label: "B", text: "is", correct: true },
             { label: "C", text: "are" },
-            { label: "D", text: "be" }
+            { label: "D", text: "isn't" }
         ]
     },
     {
@@ -167,7 +167,7 @@ const questions = [
             { label: "A", text: "am" },
             { label: "B", text: "is", correct: true },
             { label: "C", text: "are" },
-            { label: "D", text: "be" }
+            { label: "D", text: "isn't" }
         ]
     },
     {
@@ -207,7 +207,7 @@ const questions = [
             { label: "A", text: "am", correct: true },
             { label: "B", text: "is" },
             { label: "C", text: "are" },
-            { label: "D", text: "be" }
+            { label: "D", text: "am not" }
         ]
     },
     {
@@ -237,7 +237,7 @@ const questions = [
             { label: "A", text: "am" },
             { label: "B", text: "is" },
             { label: "C", text: "are", correct: true },
-            { label: "D", text: "be" }
+            { label: "D", text: "aren't" }
         ]
     },
     {
@@ -312,25 +312,48 @@ function displayRanking() {
     const ranking = getRanking();
     const rankingList = document.getElementById('ranking-list');
     const rankingTitle = document.getElementById('ranking-title');
+    const rankingModal = document.getElementById('ranking-modal');
+    const closeRankingBtn = document.getElementById('close-ranking-btn');
     
     rankingTitle.textContent = `🏆 Ranking - Present Simple To Be 🏆`;
     
     if (ranking.length === 0) {
         rankingList.innerHTML = '<p class="no-ranking">No scores yet! Play to appear on the ranking! 🎮</p>';
-        return;
+    } else {
+        rankingList.innerHTML = ranking.map((entry, index) => {
+            const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '🏅';
+            return `
+                <div class="ranking-entry ${index < 3 ? 'top-three' : ''}">
+                    <span class="ranking-position">${medal} ${index + 1}${getOrdinal(index + 1)}</span>
+                    <span class="ranking-player">${entry.player}</span>
+                    <span class="ranking-score">${entry.score}/${entry.total} (${entry.percentage}%)</span>
+                    <span class="ranking-date">${entry.date}</span>
+                </div>
+            `;
+        }).join('');
     }
     
-    rankingList.innerHTML = ranking.map((entry, index) => {
-        const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '🏅';
-        return `
-            <div class="ranking-entry ${index < 3 ? 'top-three' : ''}">
-                <span class="ranking-position">${medal} ${index + 1}${getOrdinal(index + 1)}</span>
-                <span class="ranking-player">${entry.player}</span>
-                <span class="ranking-score">${entry.score}/${entry.total} (${entry.percentage}%)</span>
-                <span class="ranking-date">${entry.date}</span>
-            </div>
-        `;
-    }).join('');
+    // Mostrar modal
+    if (rankingModal) {
+        rankingModal.style.display = 'flex';
+    }
+    
+    // Event listeners para fechar modal
+    if (closeRankingBtn) {
+        closeRankingBtn.addEventListener('click', () => {
+            if (rankingModal) {
+                rankingModal.style.display = 'none';
+            }
+        });
+    }
+    
+    if (rankingModal) {
+        rankingModal.addEventListener('click', (e) => {
+            if (e.target === rankingModal) {
+                rankingModal.style.display = 'none';
+            }
+        });
+    }
 }
 
 function initGame() {
@@ -374,6 +397,10 @@ function loadQuestion() {
     feedback.textContent = '';
     feedback.className = 'feedback';
     nextBtn.style.display = 'none';
+    const backButton = document.querySelector('.back-button');
+    if (backButton) {
+        backButton.classList.remove('has-next');
+    }
 
     question.answers.forEach(answer => {
         const button = document.createElement('button');
@@ -425,6 +452,10 @@ function selectAnswer(answer, button) {
 
     if (currentQuestionIndex < shuffledQuestions.length - 1) {
         nextBtn.style.display = 'inline-block';
+        const backButton = document.querySelector('.back-button');
+        if (backButton) {
+            backButton.classList.add('has-next');
+        }
     } else {
         setTimeout(() => {
             endGame();

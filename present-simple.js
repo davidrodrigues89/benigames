@@ -31,32 +31,32 @@ const questions = [
         ]
     },
     {
-        question: "I _____ not like vegetables.",
-        type: "Present Simple - Negative",
-        answers: [
-            { label: "A", text: "do", correct: true },
-            { label: "B", text: "does" },
-            { label: "C", text: "don't" },
-            { label: "D", text: "doesn't" }
-        ]
-    },
-    {
-        question: "He _____ not play the piano.",
+        question: "I _____ like vegetables.",
         type: "Present Simple - Negative",
         answers: [
             { label: "A", text: "do" },
-            { label: "B", text: "does", correct: true },
-            { label: "C", text: "don't" },
+            { label: "B", text: "does" },
+            { label: "C", text: "don't", correct: true },
             { label: "D", text: "doesn't" }
         ]
     },
     {
-        question: "We _____ not watch TV in the morning.",
+        question: "He _____ play the piano.",
         type: "Present Simple - Negative",
         answers: [
-            { label: "A", text: "do", correct: true },
+            { label: "A", text: "do" },
             { label: "B", text: "does" },
             { label: "C", text: "don't" },
+            { label: "D", text: "doesn't", correct: true }
+        ]
+    },
+    {
+        question: "We _____ watch TV in the morning.",
+        type: "Present Simple - Negative",
+        answers: [
+            { label: "A", text: "do" },
+            { label: "B", text: "does" },
+            { label: "C", text: "don't", correct: true },
             { label: "D", text: "doesn't" }
         ]
     },
@@ -101,13 +101,13 @@ const questions = [
         ]
     },
     {
-        question: "My brother _____ not eat fish.",
+        question: "My brother _____ eat fish.",
         type: "Present Simple - Negative",
         answers: [
             { label: "A", text: "do" },
-            { label: "B", text: "does", correct: true },
+            { label: "B", text: "does" },
             { label: "C", text: "don't" },
-            { label: "D", text: "doesn't" }
+            { label: "D", text: "doesn't", correct: true }
         ]
     },
     {
@@ -131,13 +131,13 @@ const questions = [
         ]
     },
     {
-        question: "It _____ not rain in summer.",
+        question: "It _____ rain in summer.",
         type: "Present Simple - Negative",
         answers: [
             { label: "A", text: "do" },
-            { label: "B", text: "does", correct: true },
+            { label: "B", text: "does" },
             { label: "C", text: "don't" },
-            { label: "D", text: "doesn't" }
+            { label: "D", text: "doesn't", correct: true }
         ]
     },
     {
@@ -161,13 +161,13 @@ const questions = [
         ]
     },
     {
-        question: "She _____ not ride a bike.",
+        question: "She _____ ride a bike.",
         type: "Present Simple - Negative",
         answers: [
             { label: "A", text: "do" },
-            { label: "B", text: "does", correct: true },
+            { label: "B", text: "does" },
             { label: "C", text: "don't" },
-            { label: "D", text: "doesn't" }
+            { label: "D", text: "doesn't", correct: true }
         ]
     },
     {
@@ -201,12 +201,12 @@ const questions = [
         ]
     },
     {
-        question: "I _____ not like this.",
+        question: "I _____ like this.",
         type: "Present Simple - Negative",
         answers: [
-            { label: "A", text: "do", correct: true },
+            { label: "A", text: "do" },
             { label: "B", text: "does" },
-            { label: "C", text: "don't" },
+            { label: "C", text: "don't", correct: true },
             { label: "D", text: "doesn't" }
         ]
     },
@@ -231,12 +231,12 @@ const questions = [
         ]
     },
     {
-        question: "They _____ not live here.",
+        question: "They _____ live here.",
         type: "Present Simple - Negative",
         answers: [
-            { label: "A", text: "do", correct: true },
+            { label: "A", text: "do" },
             { label: "B", text: "does" },
-            { label: "C", text: "don't" },
+            { label: "C", text: "don't", correct: true },
             { label: "D", text: "doesn't" }
         ]
     },
@@ -322,25 +322,48 @@ function displayRanking() {
     const ranking = getRanking();
     const rankingList = document.getElementById('ranking-list');
     const rankingTitle = document.getElementById('ranking-title');
+    const rankingModal = document.getElementById('ranking-modal');
+    const closeRankingBtn = document.getElementById('close-ranking-btn');
     
     rankingTitle.textContent = `🏆 Ranking - Present Simple 🏆`;
     
     if (ranking.length === 0) {
         rankingList.innerHTML = '<p class="no-ranking">No scores yet! Play to appear on the ranking! 🎮</p>';
-        return;
+    } else {
+        rankingList.innerHTML = ranking.map((entry, index) => {
+            const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '🏅';
+            return `
+                <div class="ranking-entry ${index < 3 ? 'top-three' : ''}">
+                    <span class="ranking-position">${medal} ${index + 1}${getOrdinal(index + 1)}</span>
+                    <span class="ranking-player">${entry.player}</span>
+                    <span class="ranking-score">${entry.score}/${entry.total} (${entry.percentage}%)</span>
+                    <span class="ranking-date">${entry.date}</span>
+                </div>
+            `;
+        }).join('');
     }
     
-    rankingList.innerHTML = ranking.map((entry, index) => {
-        const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '🏅';
-        return `
-            <div class="ranking-entry ${index < 3 ? 'top-three' : ''}">
-                <span class="ranking-position">${medal} ${index + 1}${getOrdinal(index + 1)}</span>
-                <span class="ranking-player">${entry.player}</span>
-                <span class="ranking-score">${entry.score}/${entry.total} (${entry.percentage}%)</span>
-                <span class="ranking-date">${entry.date}</span>
-            </div>
-        `;
-    }).join('');
+    // Mostrar modal
+    if (rankingModal) {
+        rankingModal.style.display = 'flex';
+    }
+    
+    // Event listeners para fechar modal
+    if (closeRankingBtn) {
+        closeRankingBtn.addEventListener('click', () => {
+            if (rankingModal) {
+                rankingModal.style.display = 'none';
+            }
+        });
+    }
+    
+    if (rankingModal) {
+        rankingModal.addEventListener('click', (e) => {
+            if (e.target === rankingModal) {
+                rankingModal.style.display = 'none';
+            }
+        });
+    }
 }
 
 function initGame() {
@@ -384,6 +407,10 @@ function loadQuestion() {
     feedback.textContent = '';
     feedback.className = 'feedback';
     nextBtn.style.display = 'none';
+    const backButton = document.querySelector('.back-button');
+    if (backButton) {
+        backButton.classList.remove('has-next');
+    }
 
     question.answers.forEach(answer => {
         const button = document.createElement('button');
@@ -435,6 +462,10 @@ function selectAnswer(answer, button) {
 
     if (currentQuestionIndex < shuffledQuestions.length - 1) {
         nextBtn.style.display = 'inline-block';
+        const backButton = document.querySelector('.back-button');
+        if (backButton) {
+            backButton.classList.add('has-next');
+        }
     } else {
         setTimeout(() => {
             endGame();
