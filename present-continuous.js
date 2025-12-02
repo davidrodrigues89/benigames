@@ -81,7 +81,7 @@ const questions = [
         ]
     },
     {
-        question: "_____ I doing it right?",
+        question: "_____ I playing?",
         type: "Present Continuous - Interrogative",
         answers: [
             { label: "A", text: "Am", correct: true },
@@ -121,7 +121,7 @@ const questions = [
         ]
     },
     {
-        question: "You _____ singing beautifully.",
+        question: "You _____ singing.",
         type: "Present Continuous - Affirmative",
         answers: [
             { label: "A", text: "am" },
@@ -151,7 +151,7 @@ const questions = [
         ]
     },
     {
-        question: "I _____ drawing a picture.",
+        question: "I _____ drawing.",
         type: "Present Continuous - Affirmative",
         answers: [
             { label: "A", text: "am", correct: true },

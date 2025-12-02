@@ -205,8 +205,8 @@ const questions = [
         type: "Nome Comum Coletivo",
         answers: [
             { label: "A", text: "cachorro" },
-            { label: "B", text: "alcateia", correct: true },
-            { label: "C", text: "lobo" },
+            { label: "B", text: "matilha", correct: true },
+            { label: "C", text: "cão" },
             { label: "D", text: "floresta" }
         ]
     },
@@ -245,7 +245,7 @@ const questions = [
         type: "Nome Comum Coletivo",
         answers: [
             { label: "A", text: "gato" },
-            { label: "B", text: "gataria", correct: true },
+            { label: "B", text: "matilha", correct: true },
             { label: "C", text: "cão" },
             { label: "D", text: "animal" }
         ]
@@ -345,7 +345,7 @@ const questions = [
         type: "Nome Comum Coletivo",
         answers: [
             { label: "A", text: "leão" },
-            { label: "B", text: "alcateia", correct: true },
+            { label: "B", text: "manada", correct: true },
             { label: "C", text: "tigre" },
             { label: "D", text: "urso" }
         ]
@@ -365,7 +365,7 @@ const questions = [
         type: "Nome Comum Coletivo",
         answers: [
             { label: "A", text: "criança" },
-            { label: "B", text: "multidão", correct: true },
+            { label: "B", text: "turma", correct: true },
             { label: "C", text: "pessoa" },
             { label: "D", text: "adulto" }
         ]
@@ -385,7 +385,7 @@ const questions = [
         type: "Nome Comum Coletivo",
         answers: [
             { label: "A", text: "flor" },
-            { label: "B", text: "ramalhete", correct: true },
+            { label: "B", text: "jardim", correct: true },
             { label: "C", text: "pétala" },
             { label: "D", text: "caule" }
         ]

@@ -101,7 +101,7 @@ const questions = [
         ]
     },
     {
-        question: "A chuva cai suavemente.",
+        question: "A chuva cai.",
         type: "Tipos de Frases",
         answers: [
             { label: "A", text: "Declarativa", correct: true },
@@ -121,7 +121,7 @@ const questions = [
         ]
     },
     {
-        question: "Que surpresa maravilhosa!",
+        question: "Que surpresa!",
         type: "Tipos de Frases",
         answers: [
             { label: "A", text: "Declarativa" },

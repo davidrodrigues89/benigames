@@ -201,7 +201,7 @@ const questions = [
         ]
     },
     {
-        question: "I _____ not understand this.",
+        question: "I _____ not like this.",
         type: "Present Simple - Negative",
         answers: [
             { label: "A", text: "do", correct: true },
@@ -221,13 +221,13 @@ const questions = [
         ]
     },
     {
-        question: "The sun _____ every morning.",
+        question: "The sun _____ in the morning.",
         type: "Present Simple - Affirmative",
         answers: [
-            { label: "A", text: "rise" },
-            { label: "B", text: "rises", correct: true },
-            { label: "C", text: "rising" },
-            { label: "D", text: "rose" }
+            { label: "A", text: "shine" },
+            { label: "B", text: "shines", correct: true },
+            { label: "C", text: "shining" },
+            { label: "D", text: "shone" }
         ]
     },
     {
@@ -248,6 +248,16 @@ const questions = [
             { label: "B", text: "Does", correct: true },
             { label: "C", text: "Are" },
             { label: "D", text: "Is" }
+        ]
+    },
+    {
+        question: "I _____ my bed every day.",
+        type: "Present Simple - Affirmative",
+        answers: [
+            { label: "A", text: "make", correct: true },
+            { label: "B", text: "makes" },
+            { label: "C", text: "making" },
+            { label: "D", text: "made" }
         ]
     }
 ];

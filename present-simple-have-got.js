@@ -231,6 +231,16 @@ const questions = [
         ]
     },
     {
+        question: "I _____ got a toy.",
+        type: "Present Simple - Have Got - Affirmative",
+        answers: [
+            { label: "A", text: "have", correct: true },
+            { label: "B", text: "has" },
+            { label: "C", text: "am" },
+            { label: "D", text: "is" }
+        ]
+    }
+    {
         question: "They _____ not got money.",
         type: "Present Simple - Have Got - Negative",
         answers: [
