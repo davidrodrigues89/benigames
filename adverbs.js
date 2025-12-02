@@ -1,253 +1,253 @@
-// Perguntas sobre Adverbs em Inglês
+// Perguntas sobre Adverbs de Frequência em Inglês
 const questions = [
     {
-        question: "She runs _____.",
+        question: "I _____ brush my teeth in the morning.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "quick", correct: false },
-            { label: "B", text: "quickly", correct: true },
-            { label: "C", text: "quickest" },
-            { label: "D", text: "quicker" }
+            { label: "A", text: "always", correct: true },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "usually", correct: false }
         ]
     },
     {
-        question: "He speaks _____.",
+        question: "She _____ goes to the park on weekends.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "loud", correct: false },
-            { label: "B", text: "loudly", correct: true },
-            { label: "C", text: "loudest" },
-            { label: "D", text: "louder" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: true },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "everyday", correct: false }
         ]
     },
     {
-        question: "They play _____.",
+        question: "He _____ eats vegetables.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "happy", correct: false },
-            { label: "B", text: "happily", correct: true },
-            { label: "C", text: "happiest" },
-            { label: "D", text: "happier" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: true },
+            { label: "D", text: "usually", correct: false }
         ]
     },
     {
-        question: "I eat my food _____.",
+        question: "We _____ have breakfast at 8 o'clock.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "slow", correct: false },
-            { label: "B", text: "slowly", correct: true },
-            { label: "C", text: "slowest" },
-            { label: "D", text: "slower" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "usually", correct: true }
         ]
     },
     {
-        question: "She sings _____.",
+        question: "I go to school _____.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "beautiful", correct: false },
-            { label: "B", text: "beautifully", correct: true },
-            { label: "C", text: "beautifulest" },
-            { label: "D", text: "more beautiful" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "everyday", correct: true }
         ]
     },
     {
-        question: "He works _____.",
+        question: "They _____ play soccer after school.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "hard", correct: true },
-            { label: "B", text: "hardly" },
-            { label: "C", text: "hardest" },
-            { label: "D", text: "harder" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: true },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "everyday", correct: false }
         ]
     },
     {
-        question: "We walk _____ to school.",
+        question: "She _____ forgets her homework.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "quick", correct: false },
-            { label: "B", text: "quickly", correct: true },
-            { label: "C", text: "quickest" },
-            { label: "D", text: "quicker" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: true },
+            { label: "D", text: "usually", correct: false }
         ]
     },
     {
-        question: "The cat sleeps _____.",
+        question: "I _____ wake up early.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "quiet", correct: false },
-            { label: "B", text: "quietly", correct: true },
-            { label: "C", text: "quietest" },
-            { label: "D", text: "quieter" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "usually", correct: true }
         ]
     },
     {
-        question: "I read _____.",
+        question: "We eat lunch _____.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "careful", correct: false },
-            { label: "B", text: "carefully", correct: true },
-            { label: "C", text: "carefulest" },
-            { label: "D", text: "more careful" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "everyday", correct: true }
         ]
     },
     {
-        question: "She dances _____.",
+        question: "He _____ helps his mom.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "good", correct: false },
-            { label: "B", text: "well", correct: true },
-            { label: "C", text: "best" },
-            { label: "D", text: "better" }
+            { label: "A", text: "always", correct: true },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "usually", correct: false }
         ]
     },
     {
-        question: "He draws _____.",
+        question: "I _____ watch TV in the evening.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "nice", correct: false },
-            { label: "B", text: "nicely", correct: true },
-            { label: "C", text: "nicest" },
-            { label: "D", text: "nicer" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: true },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "everyday", correct: false }
         ]
     },
     {
-        question: "They talk _____.",
+        question: "She _____ goes to bed late.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "loud", correct: false },
-            { label: "B", text: "loudly", correct: true },
-            { label: "C", text: "loudest" },
-            { label: "D", text: "louder" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: true },
+            { label: "D", text: "usually", correct: false }
         ]
     },
     {
-        question: "I write _____.",
+        question: "We _____ do our homework.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "neat", correct: false },
-            { label: "B", text: "neatly", correct: true },
-            { label: "C", text: "neatest" },
-            { label: "D", text: "neater" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "usually", correct: true }
         ]
     },
     {
-        question: "She listens _____.",
+        question: "I drink water _____.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "careful", correct: false },
-            { label: "B", text: "carefully", correct: true },
-            { label: "C", text: "carefulest" },
-            { label: "D", text: "more careful" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "everyday", correct: true }
         ]
     },
     {
-        question: "He plays football _____.",
+        question: "They _____ visit their grandparents.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "good", correct: false },
-            { label: "B", text: "well", correct: true },
-            { label: "C", text: "best" },
-            { label: "D", text: "better" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: true },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "everyday", correct: false }
         ]
     },
     {
-        question: "We study _____.",
+        question: "He _____ says 'please' and 'thank you'.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "hard", correct: true },
-            { label: "B", text: "hardly" },
-            { label: "C", text: "hardest" },
-            { label: "D", text: "harder" }
+            { label: "A", text: "always", correct: true },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "usually", correct: false }
         ]
     },
     {
-        question: "The bird flies _____.",
+        question: "I _____ eat ice cream.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "high", correct: true },
-            { label: "B", text: "highly" },
-            { label: "C", text: "highest" },
-            { label: "D", text: "higher" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: true },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "everyday", correct: false }
         ]
     },
     {
-        question: "She smiles _____.",
+        question: "She _____ reads before sleeping.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "sweet", correct: false },
-            { label: "B", text: "sweetly", correct: true },
-            { label: "C", text: "sweetest" },
-            { label: "D", text: "sweeter" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "usually", correct: true }
         ]
     },
     {
-        question: "I speak English _____.",
+        question: "We play outside _____.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "good", correct: false },
-            { label: "B", text: "well", correct: true },
-            { label: "C", text: "best" },
-            { label: "D", text: "better" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "everyday", correct: true }
         ]
     },
     {
-        question: "They run _____.",
+        question: "I _____ clean my room.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "fast", correct: true },
-            { label: "B", text: "fastly" },
-            { label: "C", text: "fastest" },
-            { label: "D", text: "faster" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: true },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "usually", correct: false }
         ]
     },
     {
-        question: "He answers _____.",
+        question: "He _____ comes to school.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "quick", correct: false },
-            { label: "B", text: "quickly", correct: true },
-            { label: "C", text: "quickest" },
-            { label: "D", text: "quicker" }
+            { label: "A", text: "always", correct: true },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "everyday", correct: false }
         ]
     },
     {
-        question: "She walks _____.",
+        question: "She _____ goes swimming.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "slow", correct: false },
-            { label: "B", text: "slowly", correct: true },
-            { label: "C", text: "slowest" },
-            { label: "D", text: "slower" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: true },
+            { label: "D", text: "usually", correct: false }
         ]
     },
     {
-        question: "I jump _____.",
+        question: "I _____ have a snack in the afternoon.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "high", correct: true },
-            { label: "B", text: "highly" },
-            { label: "C", text: "highest" },
-            { label: "D", text: "higher" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "usually", correct: true }
         ]
     },
     {
-        question: "They laugh _____.",
+        question: "We play English games _____.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "loud", correct: false },
-            { label: "B", text: "loudly", correct: true },
-            { label: "C", text: "loudest" },
-            { label: "D", text: "louder" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: false },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "everyday", correct: true }
         ]
     },
     {
-        question: "She reads _____.",
+        question: "They _____ listen to music.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "careful", correct: false },
-            { label: "B", text: "carefully", correct: true },
-            { label: "C", text: "carefulest" },
-            { label: "D", text: "more careful" }
+            { label: "A", text: "always", correct: false },
+            { label: "B", text: "sometimes", correct: true },
+            { label: "C", text: "never", correct: false },
+            { label: "D", text: "everyday", correct: false }
         ]
     }
 ];
