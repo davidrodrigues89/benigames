@@ -81,173 +81,173 @@ const questions = [
         ]
     },
     {
-        question: "I _____ breakfast at eight o'clock.",
+        question: "I _____ at eight o'clock.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "have", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "do" },
-            { label: "D", text: "get" }
+            { label: "A", text: "have breakfast", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "do homework" },
+            { label: "D", text: "get dressed" }
         ]
     },
     {
-        question: "I _____ dinner with my family.",
+        question: "I _____ with my family.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "have", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "do" },
-            { label: "D", text: "get" }
+            { label: "A", text: "have dinner", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "do homework" },
+            { label: "D", text: "get dressed" }
         ]
     },
     {
-        question: "I _____ my room on Saturdays.",
+        question: "I _____ on Saturdays.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "tidy", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "have" },
-            { label: "D", text: "get" }
+            { label: "A", text: "tidy my room", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "have breakfast" },
+            { label: "D", text: "get dressed" }
         ]
     },
     {
-        question: "I _____ TV after dinner.",
+        question: "I _____ after dinner.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "watch", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "do" },
-            { label: "D", text: "get" }
+            { label: "A", text: "watch TV", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "do homework" },
+            { label: "D", text: "get dressed" }
         ]
     },
     {
-        question: "I _____ my teeth before bed.",
+        question: "I _____ before bed.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "brush", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "have" },
-            { label: "D", text: "get" }
+            { label: "A", text: "brush my teeth", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "have breakfast" },
+            { label: "D", text: "get dressed" }
         ]
     },
     {
-        question: "I _____ up early on school days.",
+        question: "I _____ early on school days.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "wake", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "have" },
-            { label: "D", text: "do" }
+            { label: "A", text: "wake up", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "have breakfast" },
+            { label: "D", text: "do homework" }
         ]
     },
     {
-        question: "I _____ dressed before breakfast.",
+        question: "I _____ before breakfast.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "get", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "have" },
-            { label: "D", text: "do" }
+            { label: "A", text: "get dressed", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "have breakfast" },
+            { label: "D", text: "do homework" }
         ]
     },
     {
-        question: "I _____ the bus to school.",
+        question: "I _____ to school.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "catch", correct: true },
-            { label: "B", text: "get" },
-            { label: "C", text: "have" },
-            { label: "D", text: "do" }
+            { label: "A", text: "catch the bus", correct: true },
+            { label: "B", text: "get dressed" },
+            { label: "C", text: "have breakfast" },
+            { label: "D", text: "do homework" }
         ]
     },
     {
-        question: "I _____ my homework after school.",
+        question: "I _____ after school.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "do", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "have" },
-            { label: "D", text: "get" }
+            { label: "A", text: "do my homework", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "have breakfast" },
+            { label: "D", text: "get dressed" }
         ]
     },
     {
-        question: "I _____ to bed at nine o'clock.",
+        question: "I _____ at nine o'clock.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "go", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "have" },
-            { label: "D", text: "get" }
+            { label: "A", text: "go to bed", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "have breakfast" },
+            { label: "D", text: "get dressed" }
         ]
     },
     {
-        question: "I _____ a shower every morning.",
+        question: "I _____ every morning.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "have", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "do" },
-            { label: "D", text: "get" }
+            { label: "A", text: "have a shower", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "do homework" },
+            { label: "D", text: "get dressed" }
         ]
     },
     {
-        question: "I _____ lunch with my friends.",
+        question: "I _____ with my friends.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "have", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "do" },
-            { label: "D", text: "get" }
+            { label: "A", text: "have lunch", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "do homework" },
+            { label: "D", text: "get dressed" }
         ]
     },
     {
-        question: "I _____ my hair in the morning.",
+        question: "I _____ in the morning.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "brush", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "have" },
-            { label: "D", text: "get" }
+            { label: "A", text: "brush my hair", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "have breakfast" },
+            { label: "D", text: "get dressed" }
         ]
     },
     {
-        question: "I _____ my bed every morning.",
+        question: "I _____ every morning.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "make", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "have" },
-            { label: "D", text: "get" }
+            { label: "A", text: "make my bed", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "have breakfast" },
+            { label: "D", text: "get dressed" }
         ]
     },
     {
-        question: "I _____ to music before bed.",
+        question: "I _____ before bed.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "listen", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "have" },
-            { label: "D", text: "get" }
+            { label: "A", text: "listen to music", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "have breakfast" },
+            { label: "D", text: "get dressed" }
         ]
     },
     {
-        question: "I _____ ready for school.",
+        question: "I _____ for school.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "get", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "have" },
-            { label: "D", text: "do" }
+            { label: "A", text: "get ready", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "have breakfast" },
+            { label: "D", text: "do homework" }
         ]
     },
     {
-        question: "I _____ dressed after my shower.",
+        question: "I _____ after my shower.",
         type: "Daily Routines",
         answers: [
-            { label: "A", text: "get", correct: true },
-            { label: "B", text: "catch" },
-            { label: "C", text: "have" },
-            { label: "D", text: "do" }
+            { label: "A", text: "get dressed", correct: true },
+            { label: "B", text: "catch the bus" },
+            { label: "C", text: "have breakfast" },
+            { label: "D", text: "do homework" }
         ]
     }
 ];
