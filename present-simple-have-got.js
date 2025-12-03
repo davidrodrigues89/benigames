@@ -61,7 +61,7 @@ const questions = [
         ]
     },
     {
-        question: "_____ you got a pencil?",
+        question: "_____ you have a pencil?",
         type: "Present Simple - Have Got - Interrogative",
         answers: [
             { label: "A", text: "Have", correct: true },
@@ -71,7 +71,7 @@ const questions = [
         ]
     },
     {
-        question: "_____ she got a book?",
+        question: "_____ she have a book?",
         type: "Present Simple - Have Got - Interrogative",
         answers: [
             { label: "A", text: "Have" },
@@ -81,7 +81,7 @@ const questions = [
         ]
     },
     {
-        question: "_____ I got time?",
+        question: "_____ I have time?",
         type: "Present Simple - Have Got - Interrogative",
         answers: [
             { label: "A", text: "Have", correct: true },
@@ -91,7 +91,7 @@ const questions = [
         ]
     },
     {
-        question: "The cat _____ got four legs.",
+        question: "The cat _____ four legs.",
         type: "Present Simple - Have Got - Affirmative",
         answers: [
             { label: "A", text: "have got" },
@@ -111,7 +111,7 @@ const questions = [
         ]
     },
     {
-        question: "_____ the dog got a bone?",
+        question: "_____ the dog have a bone?",
         type: "Present Simple - Have Got - Interrogative",
         answers: [
             { label: "A", text: "Have" },
@@ -121,7 +121,7 @@ const questions = [
         ]
     },
     {
-        question: "You _____ got nice shoes.",
+        question: "You _____ nice shoes.",
         type: "Present Simple - Have Got - Affirmative",
         answers: [
             { label: "A", text: "have got", correct: true },
@@ -141,7 +141,7 @@ const questions = [
         ]
     },
     {
-        question: "_____ they got homework?",
+        question: "_____ they have homework?",
         type: "Present Simple - Have Got - Interrogative",
         answers: [
             { label: "A", text: "Have", correct: true },
@@ -151,7 +151,7 @@ const questions = [
         ]
     },
     {
-        question: "I _____ got a red ball.",
+        question: "I _____ a red ball.",
         type: "Present Simple - Have Got - Affirmative",
         answers: [
             { label: "A", text: "have got", correct: true },
@@ -171,7 +171,7 @@ const questions = [
         ]
     },
     {
-        question: "_____ he got a friend?",
+        question: "_____ he have a friend?",
         type: "Present Simple - Have Got - Interrogative",
         answers: [
             { label: "A", text: "Have" },
@@ -181,7 +181,7 @@ const questions = [
         ]
     },
     {
-        question: "We _____ got a big house.",
+        question: "We _____ a big house.",
         type: "Present Simple - Have Got - Affirmative",
         answers: [
             { label: "A", text: "have got", correct: true },
@@ -191,7 +191,7 @@ const questions = [
         ]
     },
     {
-        question: "The birds _____ got wings.",
+        question: "The birds _____ wings.",
         type: "Present Simple - Have Got - Affirmative",
         answers: [
             { label: "A", text: "have got", correct: true },
@@ -211,7 +211,7 @@ const questions = [
         ]
     },
     {
-        question: "_____ you got a pen?",
+        question: "_____ you have a pen?",
         type: "Present Simple - Have Got - Interrogative",
         answers: [
             { label: "A", text: "Have", correct: true },
@@ -221,7 +221,7 @@ const questions = [
         ]
     },
     {
-        question: "The sun _____ got light.",
+        question: "The sun _____ light.",
         type: "Present Simple - Have Got - Affirmative",
         answers: [
             { label: "A", text: "have got" },
@@ -231,7 +231,7 @@ const questions = [
         ]
     },
     {
-        question: "I _____ got a toy.",
+        question: "I _____ a toy.",
         type: "Present Simple - Have Got - Affirmative",
         answers: [
             { label: "A", text: "have got", correct: true },
@@ -251,7 +251,7 @@ const questions = [
         ]
     },
     {
-        question: "_____ it got a tail?",
+        question: "_____ it have a tail?",
         type: "Present Simple - Have Got - Interrogative",
         answers: [
             { label: "A", text: "Have" },

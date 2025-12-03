@@ -1,38 +1,38 @@
-// Perguntas sobre Present Simple em Inglês
+// Perguntas sobre Present Simple - To Do (do, don't, doesn't, didn't) em Inglês
 const questions = [
     {
-        question: "I _____ to school every day.",
-        type: "Present Simple - Affirmative",
+        question: "I _____ my homework every day.",
+        type: "Present Simple - To Do - Affirmative",
         answers: [
-            { label: "A", text: "go", correct: true },
-            { label: "B", text: "goes" },
-            { label: "C", text: "going" },
-            { label: "D", text: "went" }
+            { label: "A", text: "do", correct: true },
+            { label: "B", text: "does" },
+            { label: "C", text: "don't" },
+            { label: "D", text: "did" }
         ]
     },
     {
-        question: "She _____ her teeth every morning.",
-        type: "Present Simple - Affirmative",
+        question: "She _____ her chores on Saturdays.",
+        type: "Present Simple - To Do - Affirmative",
         answers: [
-            { label: "A", text: "brush" },
-            { label: "B", text: "brushes", correct: true },
-            { label: "C", text: "brushing" },
-            { label: "D", text: "brushed" }
+            { label: "A", text: "do" },
+            { label: "B", text: "does", correct: true },
+            { label: "C", text: "don't" },
+            { label: "D", text: "did" }
         ]
     },
     {
-        question: "They _____ football on Saturdays.",
-        type: "Present Simple - Affirmative",
+        question: "They _____ the dishes after dinner.",
+        type: "Present Simple - To Do - Affirmative",
         answers: [
-            { label: "A", text: "play", correct: true },
-            { label: "B", text: "plays" },
-            { label: "C", text: "playing" },
-            { label: "D", text: "played" }
+            { label: "A", text: "do", correct: true },
+            { label: "B", text: "does" },
+            { label: "C", text: "don't" },
+            { label: "D", text: "did" }
         ]
     },
     {
         question: "I _____ like vegetables.",
-        type: "Present Simple - Negative",
+        type: "Present Simple - To Do - Negative",
         answers: [
             { label: "A", text: "do" },
             { label: "B", text: "does" },
@@ -42,7 +42,7 @@ const questions = [
     },
     {
         question: "He _____ play the piano.",
-        type: "Present Simple - Negative",
+        type: "Present Simple - To Do - Negative",
         answers: [
             { label: "A", text: "do" },
             { label: "B", text: "does" },
@@ -52,7 +52,7 @@ const questions = [
     },
     {
         question: "We _____ watch TV in the morning.",
-        type: "Present Simple - Negative",
+        type: "Present Simple - To Do - Negative",
         answers: [
             { label: "A", text: "do" },
             { label: "B", text: "does" },
@@ -62,47 +62,37 @@ const questions = [
     },
     {
         question: "_____ you like ice cream?",
-        type: "Present Simple - Interrogative",
+        type: "Present Simple - To Do - Interrogative",
         answers: [
             { label: "A", text: "Do", correct: true },
             { label: "B", text: "Does" },
-            { label: "C", text: "Are" },
-            { label: "D", text: "Is" }
+            { label: "C", text: "Did" },
+            { label: "D", text: "Don't" }
         ]
     },
     {
         question: "_____ she play tennis?",
-        type: "Present Simple - Interrogative",
+        type: "Present Simple - To Do - Interrogative",
         answers: [
             { label: "A", text: "Do" },
             { label: "B", text: "Does", correct: true },
-            { label: "C", text: "Are" },
-            { label: "D", text: "Is" }
+            { label: "C", text: "Did" },
+            { label: "D", text: "Doesn't" }
         ]
     },
     {
         question: "_____ they go to the park?",
-        type: "Present Simple - Interrogative",
+        type: "Present Simple - To Do - Interrogative",
         answers: [
             { label: "A", text: "Do", correct: true },
             { label: "B", text: "Does" },
-            { label: "C", text: "Are" },
-            { label: "D", text: "Is" }
-        ]
-    },
-    {
-        question: "The cat _____ milk every day.",
-        type: "Present Simple - Affirmative",
-        answers: [
-            { label: "A", text: "drink" },
-            { label: "B", text: "drinks", correct: true },
-            { label: "C", text: "drinking" },
-            { label: "D", text: "drank" }
+            { label: "C", text: "Did" },
+            { label: "D", text: "Don't" }
         ]
     },
     {
         question: "My brother _____ eat fish.",
-        type: "Present Simple - Negative",
+        type: "Present Simple - To Do - Negative",
         answers: [
             { label: "A", text: "do" },
             { label: "B", text: "does" },
@@ -112,27 +102,27 @@ const questions = [
     },
     {
         question: "_____ the dog sleep a lot?",
-        type: "Present Simple - Interrogative",
+        type: "Present Simple - To Do - Interrogative",
         answers: [
             { label: "A", text: "Do" },
             { label: "B", text: "Does", correct: true },
-            { label: "C", text: "Are" },
-            { label: "D", text: "Is" }
+            { label: "C", text: "Did" },
+            { label: "D", text: "Doesn't" }
         ]
     },
     {
-        question: "You _____ your homework every day.",
-        type: "Present Simple - Affirmative",
+        question: "You _____ your best every day.",
+        type: "Present Simple - To Do - Affirmative",
         answers: [
             { label: "A", text: "do", correct: true },
             { label: "B", text: "does" },
-            { label: "C", text: "doing" },
+            { label: "C", text: "don't" },
             { label: "D", text: "did" }
         ]
     },
     {
         question: "It _____ rain in summer.",
-        type: "Present Simple - Negative",
+        type: "Present Simple - To Do - Negative",
         answers: [
             { label: "A", text: "do" },
             { label: "B", text: "does" },
@@ -142,27 +132,27 @@ const questions = [
     },
     {
         question: "_____ they help at home?",
-        type: "Present Simple - Interrogative",
+        type: "Present Simple - To Do - Interrogative",
         answers: [
             { label: "A", text: "Do", correct: true },
             { label: "B", text: "Does" },
-            { label: "C", text: "Are" },
-            { label: "D", text: "Is" }
+            { label: "C", text: "Did" },
+            { label: "D", text: "Don't" }
         ]
     },
     {
-        question: "I _____ my room every week.",
-        type: "Present Simple - Affirmative",
+        question: "I _____ my exercises every week.",
+        type: "Present Simple - To Do - Affirmative",
         answers: [
-            { label: "A", text: "clean", correct: true },
-            { label: "B", text: "cleans" },
-            { label: "C", text: "cleaning" },
-            { label: "D", text: "cleaned" }
+            { label: "A", text: "do", correct: true },
+            { label: "B", text: "does" },
+            { label: "C", text: "don't" },
+            { label: "D", text: "did" }
         ]
     },
     {
         question: "She _____ ride a bike.",
-        type: "Present Simple - Negative",
+        type: "Present Simple - To Do - Negative",
         answers: [
             { label: "A", text: "do" },
             { label: "B", text: "does" },
@@ -172,37 +162,27 @@ const questions = [
     },
     {
         question: "_____ he read books?",
-        type: "Present Simple - Interrogative",
+        type: "Present Simple - To Do - Interrogative",
         answers: [
             { label: "A", text: "Do" },
             { label: "B", text: "Does", correct: true },
-            { label: "C", text: "Are" },
-            { label: "D", text: "Is" }
+            { label: "C", text: "Did" },
+            { label: "D", text: "Doesn't" }
         ]
     },
     {
-        question: "We _____ breakfast at 8 o'clock.",
-        type: "Present Simple - Affirmative",
+        question: "We _____ our best at school.",
+        type: "Present Simple - To Do - Affirmative",
         answers: [
-            { label: "A", text: "eat", correct: true },
-            { label: "B", text: "eats" },
-            { label: "C", text: "eating" },
-            { label: "D", text: "ate" }
-        ]
-    },
-    {
-        question: "The birds _____ in the trees.",
-        type: "Present Simple - Affirmative",
-        answers: [
-            { label: "A", text: "sing", correct: true },
-            { label: "B", text: "sings" },
-            { label: "C", text: "singing" },
-            { label: "D", text: "sang" }
+            { label: "A", text: "do", correct: true },
+            { label: "B", text: "does" },
+            { label: "C", text: "don't" },
+            { label: "D", text: "did" }
         ]
     },
     {
         question: "I _____ like this.",
-        type: "Present Simple - Negative",
+        type: "Present Simple - To Do - Negative",
         answers: [
             { label: "A", text: "do" },
             { label: "B", text: "does" },
@@ -212,27 +192,17 @@ const questions = [
     },
     {
         question: "_____ you speak English?",
-        type: "Present Simple - Interrogative",
+        type: "Present Simple - To Do - Interrogative",
         answers: [
             { label: "A", text: "Do", correct: true },
             { label: "B", text: "Does" },
-            { label: "C", text: "Are" },
-            { label: "D", text: "Is" }
-        ]
-    },
-    {
-        question: "The sun _____ in the morning.",
-        type: "Present Simple - Affirmative",
-        answers: [
-            { label: "A", text: "shine" },
-            { label: "B", text: "shines", correct: true },
-            { label: "C", text: "shining" },
-            { label: "D", text: "shone" }
+            { label: "C", text: "Did" },
+            { label: "D", text: "Don't" }
         ]
     },
     {
         question: "They _____ live here.",
-        type: "Present Simple - Negative",
+        type: "Present Simple - To Do - Negative",
         answers: [
             { label: "A", text: "do" },
             { label: "B", text: "does" },
@@ -242,22 +212,52 @@ const questions = [
     },
     {
         question: "_____ it work?",
-        type: "Present Simple - Interrogative",
+        type: "Present Simple - To Do - Interrogative",
         answers: [
             { label: "A", text: "Do" },
             { label: "B", text: "Does", correct: true },
-            { label: "C", text: "Are" },
-            { label: "D", text: "Is" }
+            { label: "C", text: "Did" },
+            { label: "D", text: "Doesn't" }
         ]
     },
     {
-        question: "I _____ my bed every day.",
-        type: "Present Simple - Affirmative",
+        question: "I _____ my best every day.",
+        type: "Present Simple - To Do - Affirmative",
         answers: [
-            { label: "A", text: "make", correct: true },
-            { label: "B", text: "makes" },
-            { label: "C", text: "making" },
-            { label: "D", text: "made" }
+            { label: "A", text: "do", correct: true },
+            { label: "B", text: "does" },
+            { label: "C", text: "don't" },
+            { label: "D", text: "did" }
+        ]
+    },
+    {
+        question: "Yesterday, I _____ my homework.",
+        type: "Past Simple - To Do - Affirmative",
+        answers: [
+            { label: "A", text: "do" },
+            { label: "B", text: "does" },
+            { label: "C", text: "don't" },
+            { label: "D", text: "did", correct: true }
+        ]
+    },
+    {
+        question: "She _____ finish her work yesterday.",
+        type: "Past Simple - To Do - Negative",
+        answers: [
+            { label: "A", text: "do" },
+            { label: "B", text: "does" },
+            { label: "C", text: "don't" },
+            { label: "D", text: "didn't", correct: true }
+        ]
+    },
+    {
+        question: "_____ you go to the park yesterday?",
+        type: "Past Simple - To Do - Interrogative",
+        answers: [
+            { label: "A", text: "Do" },
+            { label: "B", text: "Does" },
+            { label: "C", text: "Did", correct: true },
+            { label: "D", text: "Didn't" }
         ]
     }
 ];
@@ -325,7 +325,7 @@ function displayRanking() {
     const rankingModal = document.getElementById('ranking-modal');
     const closeRankingBtn = document.getElementById('close-ranking-btn');
     
-    rankingTitle.textContent = `🏆 Ranking - Present Simple 🏆`;
+    rankingTitle.textContent = `🏆 Ranking - Present Simple - To Do 🏆`;
     
     if (ranking.length === 0) {
         rankingList.innerHTML = '<p class="no-ranking">No scores yet! Play to appear on the ranking! 🎮</p>';
@@ -370,7 +370,7 @@ function initGame() {
     PLAYER_NAME = localStorage.getItem('playerName') || 'Beni';
     const playerGreeting = document.getElementById('player-greeting');
     if (playerGreeting) {
-        playerGreeting.textContent = `Hello ${PLAYER_NAME}! Learn the Present Simple in English!`;
+        playerGreeting.textContent = `Hello ${PLAYER_NAME}! Learn the verb 'to do' (do, don't, doesn't, didn't) in English!`;
     }
     
     currentQuestionIndex = 0;

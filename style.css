@@ -807,6 +807,33 @@ body.ingles-page .game-card,
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
 }
 
+/* Green success style for cards when user has >90% score */
+.game-card.passed,
+.game-card.success {
+    background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%) !important;
+    border: 3px solid #16a34a;
+    box-shadow: 0 8px 24px rgba(34, 197, 94, 0.4);
+}
+
+.game-card.passed:hover,
+.game-card.success:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(34, 197, 94, 0.5);
+}
+
+/* Green button style for passed cards */
+.game-card.passed .btn-play,
+.game-card.success .btn-play {
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    border: 3px solid #fff;
+}
+
+.game-card.passed .btn-play:hover,
+.game-card.success .btn-play:hover {
+    background: linear-gradient(135deg, #16a34a 0%, #22c55e 100%) !important;
+    box-shadow: 0 12px 30px rgba(34, 197, 94, 0.5);
+}
+
 .card-decoration {
     position: absolute;
     top: 10px;

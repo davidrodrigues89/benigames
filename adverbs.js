@@ -1,253 +1,253 @@
-// Perguntas sobre Adverbs de Frequência em Inglês
+// Perguntas sobre Adverbs de Frequência em Inglês - Simplified for 3rd grade
 const questions = [
     {
-        question: "I _____ brush my teeth. Every single day, never forget!",
+        question: "The sun _____ shines.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: true },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: false }
+            { label: "B", text: "sometimes" },
+            { label: "C", text: "never" },
+            { label: "D", text: "usually" }
         ]
     },
     {
-        question: "She _____ plays with toys. Only when she feels like it.",
+        question: "Water _____ freezes in winter.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "always", correct: false },
+            { label: "A", text: "always" },
             { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: false }
+            { label: "C", text: "never" },
+            { label: "D", text: "usually" }
         ]
     },
     {
-        question: "He _____ eats candy. His mum never lets him.",
+        question: "Fish _____ live on land.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes" },
             { label: "C", text: "never", correct: true },
-            { label: "D", text: "usually", correct: false }
+            { label: "D", text: "usually" }
         ]
     },
     {
-        question: "We _____ eat breakfast. Almost every day, but not always.",
+        question: "I _____ go to school.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes" },
+            { label: "C", text: "never" },
             { label: "D", text: "usually", correct: true }
         ]
     },
     {
-        question: "I go to school _____. Monday, Tuesday, Wednesday, Thursday, Friday.",
+        question: "Birds _____ fly.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: true }
-        ]
-    },
-    {
-        question: "They _____ play games. Not every day, just now and then.",
-        type: "Adverbs",
-        answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
-        ]
-    },
-    {
-        question: "She _____ forgets her bag. She always remembers it!",
-        type: "Adverbs",
-        answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: true },
-            { label: "D", text: "usually", correct: false }
-        ]
-    },
-    {
-        question: "I _____ wake up early. Most mornings, but sometimes I sleep late.",
-        type: "Adverbs",
-        answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes" },
+            { label: "C", text: "never" },
             { label: "D", text: "usually", correct: true }
         ]
     },
     {
-        question: "We eat lunch _____. Every single day at noon.",
+        question: "I _____ eat ice cream.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes", correct: true },
+            { label: "C", text: "never" },
+            { label: "D", text: "everyday" }
+        ]
+    },
+    {
+        question: "The moon _____ appears at night.",
+        type: "Adverbs",
+        answers: [
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes" },
+            { label: "C", text: "never" },
+            { label: "D", text: "usually", correct: true }
+        ]
+    },
+    {
+        question: "I _____ brush my teeth.",
+        type: "Adverbs",
+        answers: [
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes" },
+            { label: "C", text: "never" },
             { label: "D", text: "everyday", correct: true }
         ]
     },
     {
-        question: "He _____ helps at home. Without fail, every single time!",
+        question: "Dogs _____ meow.",
+        type: "Adverbs",
+        answers: [
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes" },
+            { label: "C", text: "never", correct: true },
+            { label: "D", text: "usually" }
+        ]
+    },
+    {
+        question: "I _____ play outside.",
+        type: "Adverbs",
+        answers: [
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes", correct: true },
+            { label: "C", text: "never" },
+            { label: "D", text: "everyday" }
+        ]
+    },
+    {
+        question: "The sky _____ blue.",
+        type: "Adverbs",
+        answers: [
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes", correct: true },
+            { label: "C", text: "never" },
+            { label: "D", text: "usually" }
+        ]
+    },
+    {
+        question: "I _____ eat breakfast.",
+        type: "Adverbs",
+        answers: [
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes" },
+            { label: "C", text: "never" },
+            { label: "D", text: "usually", correct: true }
+        ]
+    },
+    {
+        question: "Cats _____ bark.",
+        type: "Adverbs",
+        answers: [
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes" },
+            { label: "C", text: "never", correct: true },
+            { label: "D", text: "usually" }
+        ]
+    },
+    {
+        question: "I _____ do my homework.",
+        type: "Adverbs",
+        answers: [
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes" },
+            { label: "C", text: "never" },
+            { label: "D", text: "usually", correct: true }
+        ]
+    },
+    {
+        question: "I _____ watch TV.",
+        type: "Adverbs",
+        answers: [
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes", correct: true },
+            { label: "C", text: "never" },
+            { label: "D", text: "everyday" }
+        ]
+    },
+    {
+        question: "The Earth _____ spins.",
         type: "Adverbs",
         answers: [
             { label: "A", text: "always", correct: true },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: false }
+            { label: "B", text: "sometimes" },
+            { label: "C", text: "never" },
+            { label: "D", text: "usually" }
         ]
     },
     {
-        question: "I _____ watch cartoons. Only on weekends, not every day.",
+        question: "I _____ eat vegetables.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "always", correct: false },
+            { label: "A", text: "always" },
             { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "C", text: "never" },
+            { label: "D", text: "everyday" }
         ]
     },
     {
-        question: "She _____ goes to bed late. She always sleeps at 8 PM!",
+        question: "I _____ go to bed early.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: true },
-            { label: "D", text: "usually", correct: false }
-        ]
-    },
-    {
-        question: "We _____ do homework. Almost every day, but we skip it sometimes.",
-        type: "Adverbs",
-        answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes" },
+            { label: "C", text: "never" },
             { label: "D", text: "usually", correct: true }
         ]
     },
     {
-        question: "I drink milk _____. Every morning and every night.",
+        question: "I _____ drink water.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes" },
+            { label: "C", text: "never" },
             { label: "D", text: "everyday", correct: true }
         ]
     },
     {
-        question: "They _____ visit friends. Only once in a while, not often.",
+        question: "I _____ play with friends.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "always", correct: false },
+            { label: "A", text: "always" },
             { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "C", text: "never" },
+            { label: "D", text: "everyday" }
         ]
     },
     {
-        question: "He _____ says hello. Every time he sees someone, without exception!",
+        question: "I _____ read books.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "always", correct: true },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: false }
-        ]
-    },
-    {
-        question: "I _____ eat fruit. Not every day, just when I feel like it.",
-        type: "Adverbs",
-        answers: [
-            { label: "A", text: "always", correct: false },
+            { label: "A", text: "always" },
             { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "C", text: "never" },
+            { label: "D", text: "everyday" }
         ]
     },
     {
-        question: "She _____ reads books. Most nights before bed, but not always.",
+        question: "I _____ eat lunch.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: true }
-        ]
-    },
-    {
-        question: "We play outside _____. Every single day after school.",
-        type: "Adverbs",
-        answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes" },
+            { label: "C", text: "never" },
             { label: "D", text: "everyday", correct: true }
         ]
     },
     {
-        question: "I _____ clean my room. Only when my mum asks me to.",
+        question: "I _____ help at home.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "always", correct: false },
+            { label: "A", text: "always" },
             { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: false }
+            { label: "C", text: "never" },
+            { label: "D", text: "everyday" }
         ]
     },
     {
-        question: "He _____ comes to school. Every single day, never misses!",
+        question: "I _____ listen to music.",
         type: "Adverbs",
         answers: [
-            { label: "A", text: "always", correct: true },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
-        ]
-    },
-    {
-        question: "She _____ goes swimming. She is afraid of water!",
-        type: "Adverbs",
-        answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: true },
-            { label: "D", text: "usually", correct: false }
-        ]
-    },
-    {
-        question: "I _____ have a snack. Most afternoons, but not every day.",
-        type: "Adverbs",
-        answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "usually", correct: true }
-        ]
-    },
-    {
-        question: "We play games _____. Every day after homework.",
-        type: "Adverbs",
-        answers: [
-            { label: "A", text: "always", correct: false },
-            { label: "B", text: "sometimes", correct: false },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: true }
-        ]
-    },
-    {
-        question: "They _____ listen to songs. Not every day, just occasionally.",
-        type: "Adverbs",
-        answers: [
-            { label: "A", text: "always", correct: false },
+            { label: "A", text: "always" },
             { label: "B", text: "sometimes", correct: true },
-            { label: "C", text: "never", correct: false },
-            { label: "D", text: "everyday", correct: false }
+            { label: "C", text: "never" },
+            { label: "D", text: "everyday" }
+        ]
+    },
+    {
+        question: "I _____ go to the park.",
+        type: "Adverbs",
+        answers: [
+            { label: "A", text: "always" },
+            { label: "B", text: "sometimes", correct: true },
+            { label: "C", text: "never" },
+            { label: "D", text: "everyday" }
         ]
     }
 ];

@@ -55,6 +55,9 @@ function init() {
             rankingModal.style.display = 'none';
         }
     });
+
+    // Check and highlight cards with >90% scores
+    checkAndHighlightPassedCards();
 }
 
 function savePlayerName() {
@@ -133,6 +136,40 @@ function showRanking(game) {
 function getRanking(key) {
     const ranking = localStorage.getItem(key);
     return ranking ? JSON.parse(ranking) : [];
+}
+
+function checkAndHighlightPassedCards() {
+    const currentPlayer = localStorage.getItem('playerName') || 'Beni';
+    
+    // Map of game data attributes to ranking keys
+    const gameRankingMap = {
+        'nomes': 'nomesRanking',
+        'conectores': 'conectoresRanking',
+        'tipos-frases': 'tiposFrasesRanking'
+    };
+
+    gameCards.forEach(card => {
+        const game = card.dataset.game;
+        const rankingKey = gameRankingMap[game];
+        
+        if (rankingKey) {
+            const ranking = getRanking(rankingKey);
+            // Find the best score for the current player
+            const playerScores = ranking.filter(entry => entry.player === currentPlayer);
+            
+            if (playerScores.length > 0) {
+                // Get the highest percentage score
+                const bestScore = playerScores.reduce((best, current) => {
+                    return current.percentage > best.percentage ? current : best;
+                });
+                
+                // If best score is above 90%, add success class
+                if (bestScore.percentage > 90) {
+                    card.classList.add('passed', 'success');
+                }
+            }
+        }
+    });
 }
 
 // Inicializar quando a página carregar

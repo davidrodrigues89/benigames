@@ -14,7 +14,7 @@ const questions = [
         question: "We watch TV in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "dining room" },
             { label: "B", text: "living room", correct: true },
             { label: "C", text: "bathroom" },
             { label: "D", text: "garage" }
@@ -24,7 +24,7 @@ const questions = [
         question: "Mum cooks dinner in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "dining room" },
             { label: "B", text: "kitchen", correct: true },
             { label: "C", text: "bathroom" },
             { label: "D", text: "garden" }
@@ -34,7 +34,7 @@ const questions = [
         question: "I brush my teeth in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "study" },
             { label: "B", text: "kitchen" },
             { label: "C", text: "bathroom", correct: true },
             { label: "D", text: "living room" }
@@ -44,7 +44,7 @@ const questions = [
         question: "We play football in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "balcony" },
             { label: "B", text: "kitchen" },
             { label: "C", text: "bathroom" },
             { label: "D", text: "garden", correct: true }
@@ -54,7 +54,7 @@ const questions = [
         question: "The car is in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "hallway" },
             { label: "B", text: "kitchen" },
             { label: "C", text: "garage", correct: true },
             { label: "D", text: "bathroom" }
@@ -74,7 +74,7 @@ const questions = [
         question: "We eat breakfast in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "dining room" },
             { label: "B", text: "kitchen", correct: true },
             { label: "C", text: "bathroom" },
             { label: "D", text: "garden" }
@@ -84,7 +84,7 @@ const questions = [
         question: "I have a shower in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "study" },
             { label: "B", text: "kitchen" },
             { label: "C", text: "bathroom", correct: true },
             { label: "D", text: "living room" }
@@ -94,7 +94,7 @@ const questions = [
         question: "We sit on the sofa in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "dining room" },
             { label: "B", text: "living room", correct: true },
             { label: "C", text: "kitchen" },
             { label: "D", text: "bathroom" }
@@ -114,7 +114,7 @@ const questions = [
         question: "We can see the city from the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "balcony" },
             { label: "B", text: "kitchen" },
             { label: "C", text: "balcony", correct: true },
             { label: "D", text: "bathroom" }
@@ -124,7 +124,7 @@ const questions = [
         question: "We store old things in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "balcony" },
             { label: "B", text: "basement", correct: true },
             { label: "C", text: "kitchen" },
             { label: "D", text: "bathroom" }
@@ -134,7 +134,7 @@ const questions = [
         question: "We keep food in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "dining room" },
             { label: "B", text: "kitchen", correct: true },
             { label: "C", text: "bathroom" },
             { label: "D", text: "garden" }
@@ -154,7 +154,7 @@ const questions = [
         question: "We have dinner in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "dining room" },
             { label: "B", text: "kitchen", correct: true },
             { label: "C", text: "bathroom" },
             { label: "D", text: "garage" }
@@ -164,7 +164,7 @@ const questions = [
         question: "The flowers are in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "balcony" },
             { label: "B", text: "kitchen" },
             { label: "C", text: "bathroom" },
             { label: "D", text: "garden", correct: true }
@@ -174,7 +174,7 @@ const questions = [
         question: "I wash my hands in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "study" },
             { label: "B", text: "kitchen" },
             { label: "C", text: "bathroom", correct: true },
             { label: "D", text: "living room" }
@@ -184,7 +184,7 @@ const questions = [
         question: "We relax and chat in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "dining room" },
             { label: "B", text: "living room", correct: true },
             { label: "C", text: "kitchen" },
             { label: "D", text: "garage" }
@@ -194,7 +194,7 @@ const questions = [
         question: "My bike is in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "hallway" },
             { label: "B", text: "kitchen" },
             { label: "C", text: "garage", correct: true },
             { label: "D", text: "bathroom" }
@@ -214,7 +214,7 @@ const questions = [
         question: "We grow vegetables in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "balcony" },
             { label: "B", text: "kitchen" },
             { label: "C", text: "bathroom" },
             { label: "D", text: "garden", correct: true }
@@ -234,7 +234,7 @@ const questions = [
         question: "We enjoy the view from the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "balcony" },
             { label: "B", text: "kitchen" },
             { label: "C", text: "balcony", correct: true },
             { label: "D", text: "bathroom" }
@@ -244,7 +244,7 @@ const questions = [
         question: "The washing machine is in the _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "bedroom" },
+            { label: "A", text: "balcony" },
             { label: "B", text: "basement", correct: true },
             { label: "C", text: "kitchen" },
             { label: "D", text: "bathroom" }

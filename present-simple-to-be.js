@@ -31,33 +31,33 @@ const questions = [
         ]
     },
     {
-        question: "I _____ not sad.",
-        type: "Present Simple - To Be - Negative",
-        answers: [
-            { label: "A", text: "am", correct: true },
-            { label: "B", text: "is" },
-            { label: "C", text: "are" },
-            { label: "D", text: "am not" }
-        ]
-    },
-    {
-        question: "He _____ not tired.",
-        type: "Present Simple - To Be - Negative",
-        answers: [
-            { label: "A", text: "am" },
-            { label: "B", text: "is", correct: true },
-            { label: "C", text: "are" },
-            { label: "D", text: "isn't" }
-        ]
-    },
-    {
-        question: "We _____ not late.",
+        question: "I _____ sad.",
         type: "Present Simple - To Be - Negative",
         answers: [
             { label: "A", text: "am" },
             { label: "B", text: "is" },
-            { label: "C", text: "are", correct: true },
-            { label: "D", text: "aren't" }
+            { label: "C", text: "are" },
+            { label: "D", text: "am not", correct: true }
+        ]
+    },
+    {
+        question: "He _____ tired.",
+        type: "Present Simple - To Be - Negative",
+        answers: [
+            { label: "A", text: "am" },
+            { label: "B", text: "is" },
+            { label: "C", text: "are" },
+            { label: "D", text: "isn't", correct: true }
+        ]
+    },
+    {
+        question: "We _____ late.",
+        type: "Present Simple - To Be - Negative",
+        answers: [
+            { label: "A", text: "am" },
+            { label: "B", text: "is" },
+            { label: "C", text: "are" },
+            { label: "D", text: "aren't", correct: true }
         ]
     },
     {
@@ -101,13 +101,13 @@ const questions = [
         ]
     },
     {
-        question: "My friends _____ not here.",
+        question: "My friends _____ here.",
         type: "Present Simple - To Be - Negative",
         answers: [
             { label: "A", text: "am" },
             { label: "B", text: "is" },
-            { label: "C", text: "are", correct: true },
-            { label: "D", text: "aren't" }
+            { label: "C", text: "are" },
+            { label: "D", text: "aren't", correct: true }
         ]
     },
     {
@@ -131,13 +131,13 @@ const questions = [
         ]
     },
     {
-        question: "It _____ not cold today.",
+        question: "It _____ cold today.",
         type: "Present Simple - To Be - Negative",
         answers: [
             { label: "A", text: "am" },
-            { label: "B", text: "is", correct: true },
+            { label: "B", text: "is" },
             { label: "C", text: "are" },
-            { label: "D", text: "isn't" }
+            { label: "D", text: "isn't", correct: true }
         ]
     },
     {
@@ -161,13 +161,13 @@ const questions = [
         ]
     },
     {
-        question: "She _____ not angry.",
+        question: "She _____ angry.",
         type: "Present Simple - To Be - Negative",
         answers: [
             { label: "A", text: "am" },
-            { label: "B", text: "is", correct: true },
+            { label: "B", text: "is" },
             { label: "C", text: "are" },
-            { label: "D", text: "isn't" }
+            { label: "D", text: "isn't", correct: true }
         ]
     },
     {
@@ -201,13 +201,13 @@ const questions = [
         ]
     },
     {
-        question: "I _____ not afraid.",
+        question: "I _____ afraid.",
         type: "Present Simple - To Be - Negative",
         answers: [
-            { label: "A", text: "am", correct: true },
+            { label: "A", text: "am" },
             { label: "B", text: "is" },
             { label: "C", text: "are" },
-            { label: "D", text: "am not" }
+            { label: "D", text: "am not", correct: true }
         ]
     },
     {
@@ -231,13 +231,13 @@ const questions = [
         ]
     },
     {
-        question: "They _____ not hungry.",
+        question: "They _____ hungry.",
         type: "Present Simple - To Be - Negative",
         answers: [
             { label: "A", text: "am" },
             { label: "B", text: "is" },
-            { label: "C", text: "are", correct: true },
-            { label: "D", text: "aren't" }
+            { label: "C", text: "are" },
+            { label: "D", text: "aren't", correct: true }
         ]
     },
     {
