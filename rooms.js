@@ -101,11 +101,11 @@ const questions = [
         ]
     },
     {
-        question: "I live in a _____ in London.",
+        question: "I live in a very tall building. I live in a _____.",
         type: "The House",
         answers: [
             { label: "A", text: "flat", correct: true },
-            { label: "B", text: "garden" },
+            { label: "B", text: "house" },
             { label: "C", text: "garage" },
             { label: "D", text: "bedroom" }
         ]
@@ -121,11 +121,11 @@ const questions = [
         ]
     },
     {
-        question: "The books are in the _____.",
+        question: "We store old things in the _____.",
         type: "The House",
         answers: [
             { label: "A", text: "bedroom" },
-            { label: "B", text: "study", correct: true },
+            { label: "B", text: "basement", correct: true },
             { label: "C", text: "kitchen" },
             { label: "D", text: "bathroom" }
         ]
@@ -221,11 +221,11 @@ const questions = [
         ]
     },
     {
-        question: "My family lives in a _____ in Birmingham.",
+        question: "My house has a garden. I live in a _____.",
         type: "The House",
         answers: [
-            { label: "A", text: "flat", correct: true },
-            { label: "B", text: "garden" },
+            { label: "A", text: "flat" },
+            { label: "B", text: "house", correct: true },
             { label: "C", text: "bedroom" },
             { label: "D", text: "garage" }
         ]
@@ -241,11 +241,11 @@ const questions = [
         ]
     },
     {
-        question: "Dad works in the _____.",
+        question: "The washing machine is in the _____.",
         type: "The House",
         answers: [
             { label: "A", text: "bedroom" },
-            { label: "B", text: "study", correct: true },
+            { label: "B", text: "basement", correct: true },
             { label: "C", text: "kitchen" },
             { label: "D", text: "bathroom" }
         ]
